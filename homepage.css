@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* css started for flight searching container */
+
+#Bg-bitch-img{
+    background: white;
+    background-repeat: no-repeat;
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh");
+    background-size: 100% 550px;
+}
+
+#search-box{
+    background-color: #FFFFFF;
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    box-shadow: 0px 1px 15px 1px #7a7a7a;
+    padding-top:10px;
+}
+
+#travel-category{
+    margin: auto;
+    max-width: 92%;
+    border-bottom: 0.1px solid #c0bcbc;
+    text-align: center;
+}
+
+#travel-category>ul{
+    margin: auto;
+    margin-top: 10px;
+    max-width: 50%;
+    line-height: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+#travel-category>ul>li{
+    cursor: pointer;
+}
+#travel-category>ul>li>a{
+    text-decoration: none;
+    color: #616161;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+form{
+    margin: auto;
+    max-width: 90%;
+}
+
+#input-section{
+    margin-top: 25px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#input-section>button{
+    margin: 7px;
+    /* width: 100%; */
+    min-height: 48px;
+    text-align: start;
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+}
+
+#input-section>button:nth-child(1){
+    min-width: 40%;
+}
+
+#input-section>button:nth-child(2){
+    width: 15%;
+}
+#input-section>button:nth-child(3){
+    width: 15%;
+}
+#input-section>button:last-child{
+    width: 28%;
+}
+
+
+
+#checkbox-stl{
+   margin-top: 18px;
+}
+#checkbox-stl>input:last-child{
+    margin-left: 15px;
+}
+#search-btn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#search-btn>button{
+    background-color: #C83259;
+    color: #FFFFFF;
+    border-radius: 2px;
+    width: 15%;
+    font-size: 16px;
+    min-height: 45px;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+}
