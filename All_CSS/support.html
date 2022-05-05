@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer service portal</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
     <style>
         *{
             margin: 0px;
@@ -16,17 +18,21 @@
   background-color: rgb(36, 178, 255);
   }
   #bar2{
-      height:60px;
+      height:55px;
       width: 100%;
       background-color: rgb(2, 37, 60);
       display: flex;
       gap: 10px;
   }
   #bar3{
-      height: 30px;
+      height: 38px;
       width: 100%;
       background-color: rgb(2, 37, 60);
-      padding-left: 70px;
+      cursor: pointer;
+  }
+  #bar3t{
+      margin-left: 65px;
+      padding-top: 8px;
   }
   #bar4{
       height: 100px;
@@ -34,12 +40,15 @@
       background-image: url(https://s3-us-west-1.amazonaws.com/csp.assets/header/1200/orbitz-1200x100.jpg);
       background-repeat:no-repeat ;
       background-size: cover;
+      display: flex;
   }
+
   #logo{
    margin: 13px 0px 0px 75px;
+   cursor: pointer;
   }
   #navtext{
-      margin-left: 490px;
+      margin-left: 320px;
       margin-top: 20px;
       display: flex;
       justify-content: space-between;
@@ -51,37 +60,321 @@
      border-radius: 3px;
      margin-top: -20px;
  }
- .text{
-     color: white;
-     margin-left:23px;
+ .all_button{
+     color: rgb(36, 178, 255);
+     margin-left:15px;
      font-size: 12px;
      letter-spacing: 1px;
      text-decoration: none;
      font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+     cursor: pointer;
+     height: 25px;
+    width: 65px;
+    background-color: rgb(2, 37, 60);
+    border: 0px;
+    margin-top: -5px;
+
  }
+.all_button:hover {
+    background-color: white;
+    text-decoration: underline;
+}
  #support{
     outline: none;
     border: 0px;
  }
  .text2{
-    color: white;
-    margin: 10px 0px 0px 13px;
-    font-size: 13px;
-    letter-spacing: 1px;
+    color: rgb(36, 178, 255);
+    margin-left:12px;
+    font-size: 14px;
     text-decoration: none;
     font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
-    padding-top: 10px;
  }
- #button{
-     height: 20px;
-     width: 100px;
-     background-color: rgb(142, 0, 153);
-     color: white;
-     font-size:12px ;
-     margin-top: 15px;
+ .text2:hover{
+     text-decoration: underline;
+ }
+ #button1{
+    color: white;
+    background-color: rgb(142, 0, 153);
+    margin-left:12px;
+     font-size: 12px;
+     letter-spacing: 1px;
+     text-decoration: none;
+     font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+     height: 21px;
+     width: 93px;
+     margin-top:25px;
      text-align: center;
+     padding-top: 4px;
+     font-weight: bold;
+     border-radius: 5px;
+     cursor: pointer;
 }
-
+#button_list{
+    color: #0C6FC8;
+    background-color:  rgb(2, 37, 60);
+     margin-left:23px;
+     font-size: 12px;
+     letter-spacing: 1px;
+     text-decoration: none;
+     font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+     height: 33px;
+     width: 132px;
+     margin-top: -2px;
+     border: 1px solid rgb(26, 159, 230);
+}
+#button_list:hover{
+  color: rgb(26, 159, 230);
+}
+#search_bar_text{
+    font-size: 25px;
+    margin-left:78px;
+   padding-top: 30px;
+   font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+   color: white;
+}
+.boxContainer{
+  width: 100%;
+  min-height: 100vh;
+  padding: 5%;
+}
+#bar5{
+    height: 200px;
+    width: 100%;
+    background-color:rgb(213, 231, 251) ;
+}
+#br1{
+    height: 50%;
+    width:100%;
+}
+#br1>p{
+    font-size: 17px;
+    margin-left:78px;
+   padding-top: 30px;
+   font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+}
+#br1>h1{
+    font-size: 24px;
+    margin-left:78px;
+   padding-top: 8px;
+   font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+}
+#card{
+   
+    height: 50%;
+    width: 100%;
+}
+#card_lite>div{
+    height: 52px;
+    width: 230px;
+    border-radius: 3px;
+    margin-left: 20px;
+    display: flex;
+    background-color: white;
+}
+#card_lite{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#card_lite>div>img{
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#card_lite>div>h3{
+    margin-left:8px;
+    margin-top: 13px;
+    font-size: 17px;
+    font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+}
+#anc1{
+    text-decoration: none;
+    color: rgb(11, 103, 185);
+}
+#anc1:hover{
+    text-decoration: underline;
+}
+#bar6{
+    height: 650px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+#box1{
+    height: 100px;
+    width: 100%;
+    margin-top: -20px;
+    padding-top: 10px;
+}
+#box2{
+    height: 670px;
+    width: 100%;
+}
+#box3{
+    height: 30px;
+    width: 100%;
+    
+}
+#para1{
+    font-size: 17px;
+    margin-left:78px;
+   margin-top: 20px;
+   font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+   color: rgb(142, 142, 142);
+}
+#para2{
+    font-size: 17px;
+    margin-left:  370px;
+   padding-top: 8px;
+   font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+   color: rgb(142, 142, 142);
+}
+#box2{
+    display: flex;
+}
+#bx1{
+    margin-left: 80px;
+    width: 270px;
+    height: 67%;
+    cursor: pointer;
+}
+#bx2{
+    margin-left: 40px;
+    width: 800px;
+    height: 75%;
+    cursor: pointer;
+}
+#bx1>div{
+  height: 9.7%;
+  width: 100%;
+  margin-top: 1px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#bx1>div:hover{
+    background-color: rgb(237, 247, 255);
+}
+#bx1>div>img{
+    height: 17px;
+    margin-left: 20px;
+    padding-top: 11px;
+}
+#bx1>div>p{
+    padding-top: 11px;
+    margin-left: 20px;
+    font-size: 15px;
+   font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+}
+#bx2>div{
+    height: 9.7%;
+  width: 100%;
+  margin-top: 1px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#bx2>div>h3{
+    padding-top: 11px;
+    margin-left: 20px;
+    font-size: 17px;
+   font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+   color: rgb(10, 101, 184);
+}
+#bx2>div:hover{
+    background-color: rgb(237, 247, 255);
+}
+#bar7{
+    height: 200px;
+    width: 100px;
+}
+#bar7>button{
+    color: rgb(10, 101, 184);
+    background-color: rgb(255, 255, 255);
+     margin-left:570px;
+     font-size: 15px;
+     letter-spacing: 1px;
+     text-decoration: none;
+     font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+     height: 33px;
+     width: 160px;
+     margin-top: 70px;
+     border: 1px solid rgb(10, 101, 184);
+     font-weight: bold;
+     border-radius: 3px;
+}
+#bar7>button:hover{
+    color: rgb(94, 179, 249);
+}
+#bar8{
+    height: 250px;
+    width: 87%;
+    border: 3px solid rgb(14, 104, 181);
+    margin-left: 80px;
+    margin-top: -69px;
+    border-radius: 6px;
+}
+#bar9{
+    height: 30px;
+    width: 100%;
+    border: 1px solid red;
+   
+}
+#footer_text{
+    display: flex;
+}
+#footer_text>img{
+    height: 10px;
+    margin-top: 15px;
+    padding-left: 7px;
+}
+#footer_text>p{
+    padding-top: 11px;
+    margin-left: 78px;
+    font-size: 13px;
+   font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+   font-weight: bold;
+   color: rgb(129, 129, 129);
+}
+#bar8_left{
+    height: 100%;
+    width: 80%;
+    border: 1px solid green;
+}
+#bar8_right{
+    height: 100%;
+    width: 20%;
+    border: 1px solid blue;
+}
+#b_l_1{
+    width: 100%;
+    height: 37%;
+    border: 1px solid red;
+}
+#b_l_2{
+    width: 100%;
+    height: 23%;
+    border: 1px solid red;
+}
+#b_l_3{
+    width: 100%;
+    height: 20%;
+    border: 1px solid red;
+}
+#b_l_4{
+    width: 100%;
+    height: 20%;
+    border: 1px solid red;
+}
+#footer>head{
+    /* padding-top: 11px; */
+    margin-left: 78px;
+    font-size: 24px;
+   font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+   font-weight: bold;
+   color: rgb(27, 46, 74);
+   
+}
     </style>
 </head>
 <body>
@@ -89,23 +382,25 @@
     <div id="bar2">
 
     <div id="logo"><img src="https://www.orbitz.com/_dms/header/logo.svg?locale=en_US&siteid=70201" alt="error"></div>
-    <div id="button">Join Rewards</div>
+    <div id="button1">Join Rewards</div>
     <div id="navtext">
-        <a class="text" href="">Account</a>
-        <a class="text"href="">My Lists</a>
-        <a class="text"href="">My Trips</a>
-        <a class="text"href="">Support</a>
+        <button id="button_list">List your property</button>
+        <button class="all_button" id="button2">Account</button>
+        <button class="all_button" id="button2">My Lists</button>
+        <button class="all_button" id="button2">My Trips</button>
+        <button class="all_button" id="button2">Support</button>
         <!-- <select name="support" id="support">
             <option value="">Support</option>
             <option value="">Customer Support</option>
             <option value="">Feedback</option>
         </select> -->
-        <a class="text"href="">Espanol</a>
+        <button class="all_button" id="button2">Espanol</button>
     </div>
 
     </div>
     <div id="bar3">
-        <a class="text2" href="">Stays</a>
+        <div id="bar3t">
+        <a class="text2" id="stay1" href="">Stays</a>
         <a class="text2" href="">Flights</a>
         <a class="text2" href="">Vacation Packages</a>
         <a class="text2" href="">Cars</a>
@@ -116,6 +411,117 @@
         <a class="text2" href="">Mobile</a>
         <a class="text2" href="">Travel Blog</a>
     </div>
-    <div id="bar4"></div>
+    </div>
+    <div id="bar4">
+        <div><h1 id="search_bar_text">Customer Service</h1></div>
+        <div></div>
+    </div>
+
+  <!-- bar 5 here start -->
+
+    <div id="bar5">
+     <div id="br1" >
+     <p> <a id="anc1" href=""> Sign in </a>for help with your trips</p>
+     <h1>Your Virtual Agent is here to help.</h1>
+     </div>
+     <div id="card">
+        <div id="card_lite"> 
+         <div>
+             <img src="https://s3-us-west-1.amazonaws.com/csp.assets/icons/calendar_cancel.svg">
+             <h3>Cancel your trip</h3>
+         </div>
+         <div>
+            <img src="https://s3-us-west-1.amazonaws.com/csp.assets/icons/calendar_busy.svg">
+            <h3>Change your trip</h3>
+         </div>
+         <div>
+            <img src="https://s3-us-west-1.amazonaws.com/csp.assets/icons/refundTracker.svg">
+            <h3>Ask about a refund</h3>
+         </div>
+         <div>
+            <img src="https://s3-us-west-1.amazonaws.com/csp.assets/icons/conversation2.svg">
+            <h3>Chat now</h3>
+         </div> 
+        </div>
+
+     </div>
+    </div>
+<!-- bar5 end here -->
+
+ <!-- bar 6 start here -->
+ <div id="bar6">
+<div id="box1">
+<div id="para1"><p>Browse Help Topics</p></div>
+<div id="para2"><p>Popular Topics</p></div>
+</div>
+<div id="box2">
+<div id="bx1">
+<div><img src="http://simpleicon.com/wp-content/uploads/plane.png">
+<p>Flights</p></div>
+<div><img src="https://png.pngtree.com/png-vector/20190623/ourmid/pngtree-hotel-icon-png-image_1511479.jpg">
+    <p>Hotels</p></div>
+<div><img src="http://www.osrvacation.com/mice/wp-content/uploads/2016/12/icon-travel.png">
+    <p>Packges</p></div>
+<div><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Car_icon_alone.png">
+    <p>Cars</p></div>
+<div><img src="https://www.pngitem.com/pimgs/m/276-2769470_cruise-vector-cruise-icon-png-transparent-png.png">
+    <p>Cruises</p></div>
+<div><img src="https://www.freeiconspng.com/thumbs/hd-tickets/the-black-ticket-for-your-projects-ticket-symbol-2.png">
+    <p>Activites</p></div>
+<div><img src="https://media.istockphoto.com/vectors/user-icon-flat-isolated-on-white-background-user-symbol-vector-vector-id1300845620?b=1&k=20&m=1300845620&s=170667a&w=0&h=JbOeyFgAc6-3jmptv6mzXpGcAd_8xqkQa_oUK2viFr8=" alt="">
+    <p>Orbitz Rewards</p></div>
+<div><img src="https://cdn0.iconfinder.com/data/icons/modern-ui-1/64/dots-horizontal-nav-more-512.png">
+    <p>Other</p></div>
+<div><img src="https://www.pngkey.com/png/detail/51-512118_message-icon-message-icon-png-black.png">
+    <p>Your Experience</p></div>
+<div><img src="http://cdn.onlinewebfonts.com/svg/img_133483.png">
+    <p>Travel Alerts</p></div>
+</div>
+<div id="bx2">
+ <div><h3> > Refund timelines, policies & processes</h3></div>
+ <div><h3> > Book a flight using an airline credit</h3></div>
+ <div><h3> > Gift card scams</h3></div>
+ <div><h3> > Flight insurance</h3></div>
+ <div><h3> > Cancel your vacation package</h3></div>
+ <div><h3> > Hotel payment options</h3></div>
+ <div><h3> > Orbitz Rewards membership and benefits</h3></div>
+ <div><h3> > Change your flight</h3></div>
+ <div><h3> > Low-cost airline bookings</h3></div>
+ <div><h3> > About Unreal Deals and package savings</h3></div>
+</div>
+</div>
+<div id="box3">
+
+</div>
+ </div>
+
+ <!-- bar7 start hereee -->
+<div id="bar7">
+ <button>Add your property</button>
+</div>
+ 
+<!-- bar8 start hereeee -->
+
+<div id="bar8">
+<div id="bar8_left">
+    <div id="b_l_1">
+        <img src="https://a.travel-assets.com/mad-service/header/banner/orbitz.png" alt="">
+        <h1 id="footerhead">Download the Orbitz app</h1>
+    </div>
+    <div id="b_l_2"></div>
+    <div id="b_l_3"></div>
+    <div id="b_l_4"></div>
+</div>
+<div id="bar9_right"></div>
+</div>
+
+<!-- bar9 start hereee -->
+<div id="bar9">
+
+<div id="footer_text"><p>Explore More </p>
+<img src="https://vieuxfourmanago.com/wp-content/uploads/2017/06/Down-Arrow-PNG-HD.png" alt="">
+</div>
+
+</div>
 </body>
 </html>
