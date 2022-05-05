@@ -12,10 +12,11 @@
 }
 
 #filter {
-  display: flex;
+  /* display: flex; */
   width: 25%;
-  border: 1px solid brown;
-  height: 400px;
+  /* border: 1px solid brown; */
+  height: auto;
+  /* margin-top: 15px; */
 }
 
 #hotel {
@@ -69,4 +70,40 @@ img {
   padding: 0px 10px;
   font-size: 25px;
   font-weight: bold;
+}
+
+form {
+  text-align: end;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+#change {
+  font-size: 25px;
+  padding: 15px 20px;
+  width: 30%;
+  border: 0.5px, solid teal;
+}
+
+#filter > .map > img {
+  height: 180px;
+  width: auto;
+  /* padding: 15px 15px 0px 15px; */
+  margin: 0;
+}
+button {
+  display: block;
+  margin: auto;
+  font-size: 25px;
+  border: 0;
+  width: auto;
+  margin-top: -2px;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+.map {
+  border: 3px solid teal;
+  width: 269px;
+  cursor: pointer;
 }

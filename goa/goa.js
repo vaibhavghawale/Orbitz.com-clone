@@ -8,7 +8,7 @@ var dataGoa = [
     hotelDetail:
       "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$172",
+    price: "$" + 172,
     rating: 4.6,
   },
   {
@@ -20,7 +20,7 @@ var dataGoa = [
     hotelDetail:
       "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$172",
+    price: "$" + 272,
     rating: 4.4,
   },
   {
@@ -32,7 +32,7 @@ var dataGoa = [
     hotelDetail:
       "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$89",
+    price: "$" + 89,
     rating: 3.6,
   },
   {
@@ -44,7 +44,7 @@ var dataGoa = [
     hotelDetail:
       "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$164",
+    price: "$" + 164,
     rating: 4.1,
   },
   {
@@ -56,7 +56,7 @@ var dataGoa = [
     hotelDetail:
       "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$576",
+    price: "$" + 576,
     rating: 4.7,
   },
   {
@@ -68,7 +68,7 @@ var dataGoa = [
     hotelDetail:
       "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$272",
+    price: "$" + 272,
     rating: 4.2,
   },
   {
@@ -80,7 +80,7 @@ var dataGoa = [
     hotelDetail:
       "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
     refundTag: "Fully refundable ",
-    price: "$143",
+    price: "$" + 143,
     rating: 3.9,
   },
   {
@@ -92,7 +92,7 @@ var dataGoa = [
     hotelDetail:
       "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$68",
+    price: "$" + 68,
     rating: 3.2,
   },
   {
@@ -104,7 +104,7 @@ var dataGoa = [
     hotelDetail:
       "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$105",
+    price: "$" + 105,
     rating: 3.3,
   },
   {
@@ -116,7 +116,7 @@ var dataGoa = [
     hotelDetail:
       "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$167",
+    price: "$" + 167,
     rating: 3.8,
   },
   {
@@ -128,7 +128,7 @@ var dataGoa = [
     hotelDetail:
       "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$247",
+    price: "$" + 247,
     rating: 4.5,
   },
 ];

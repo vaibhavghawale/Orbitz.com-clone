@@ -8,9 +8,21 @@
     <link rel="stylesheet" href="goa.css" />
   </head>
   <body>
-     
+    <form>
+      <select name="Sort by" id="change">
+        <option value="None">Recommened</option>
+        <option value="price">Price</option>
+        <option value="rating">Rating</option>
+      </select>
+    </form>
+
     <div id="content">
-      <div id="filter"></div>
+      <div id="filter">
+        <div class="map">
+          <img src="staticmap.jpg" alt="map" />
+          <button>View in a map</button>
+        </div>
+      </div>
       <div id="hotel"></div>
     </div>
   </body>
