@@ -1,0 +1,109 @@
+* {
+  font-family: sans-serif;
+}
+
+#content {
+  /* border: 1px solid pink; */
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+#filter {
+  /* display: flex; */
+  width: 25%;
+  /* border: 1px solid brown; */
+  height: auto;
+  /* margin-top: 15px; */
+}
+
+#hotel {
+  /* border: 1px solid rebeccapurple; */
+  width: 70%;
+  height: auto;
+  padding: 10px;
+}
+#hotel > div {
+  display: flex;
+  gap: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+img {
+  width: 350px;
+}
+
+#hotel div > h3 + p {
+  margin-top: -18px;
+  color: grey;
+}
+
+#hotel div > h3 + p + p {
+  /* margin-top: -18px; */
+  color: grey;
+  line-height: 1.5;
+  width: 80%;
+  /* padding: 10px 0px; */
+}
+#hotel div > .refund {
+  color: rgb(4, 158, 4);
+  width: 40%;
+  font-size: 20px;
+  margin-top: -5px;
+}
+#hotel div > .refund + div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+
+#hotel div > .refund + div > p:nth-child(1) {
+  /* text-align: end; */
+
+  font-size: 19px;
+  font-weight: bold;
+}
+#hotel div > .refund + div > p + p {
+  padding: 0px 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+form {
+  text-align: end;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+#change {
+  font-size: 25px;
+  padding: 15px 20px;
+  width: 30%;
+  border: 0.5px, solid teal;
+}
+
+#filter > .map > img {
+  height: 180px;
+  width: auto;
+  /* padding: 15px 15px 0px 15px; */
+  margin: 0;
+}
+button {
+  display: block;
+  margin: auto;
+  font-size: 25px;
+  border: 0;
+  width: auto;
+  margin-top: -2px;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+.map {
+  border: 3px solid teal;
+  width: 269px;
+  cursor: pointer;
+}
