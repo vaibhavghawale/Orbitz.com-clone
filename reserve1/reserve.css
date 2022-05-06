@@ -231,22 +231,26 @@
   }
 
  #three{
-    height:1000px;
+    height:920px;
     width:1010px;
     margin-top: -900px;
     margin-left: 70px;
     display: flex;
-    border:1px solid red;
+    
  }
+
  .pay{
-     height:1000px;
+     height: 920px;;
      width: 320px;
-     border:1px solid red;
-     margin:auto;
+     border:1px solid grey;
+     margin-right:10px;
+     background-color: white;
+     padding-left: 10px;
  }
  .pay>img{
      height:213px;
-     width:auto;
+     width: 330px;
+     margin-left: -10px;
  }
  .b{
      display: flex;
@@ -258,12 +262,50 @@
  #green{
     margin-left: -20px;
  }
- #ir>input{
-     display: block ;
-     
+ #R1{
+     margin-left: 270px;
+     margin-top: -20px;
  }
-
+ #down{
+     height:120px;
+     width:auto;
+     margin-top:70px;
+ }
+#butto>button{
+    background-color: #CC0066;
+    color:white;
+    border:none;
+   width: 90px;
+   height:40px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left:225px
+}
+#butto{
+    margin-top:-25px;
+    
+}
+#dow{
+    height:120px;
+    width:auto;
+    margin-top:95px;
+}
+  #four{
+    height:852px;
+    width:1010px;
+    margin-top: 30px;
+    margin-left: 70px;
+    display: flex;
+    
+  }
+  #foure{
+      height: 835px;
+  }
+  #fiv{
+      margin-top: -25px;
+  }
   
+ 
     
     
     
