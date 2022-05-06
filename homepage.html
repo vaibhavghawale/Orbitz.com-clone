@@ -56,7 +56,6 @@
                 </ul>
             </div>
             <div></div>
-            <!-- ##===== -->
             <div>
                 <form action="">
                     <div id="input-section">
@@ -69,16 +68,16 @@
                             <option value="Africa">Africa</option>
                             <option value="Moritius">Moritius</option>
                             <option value="China">China</option>
-                            <option value="Newzeland"></option>
+                            <option value="Newzeland">Newzeland</option>
                         </select>
-                        <div  class="date">
+                        <div  class="date" id="d1">
                             <i class="fa-regular fa-calendar"></i>
                             <div>
                                 <p>Check-in</p>
                                 <input type="date">
                             </div>
                         </div>
-                        <div class="date">
+                        <div class="date" id="d2">
                             <i class="fa-regular fa-calendar"></i>
                             <div>
                                 <p>Check-out</p>
@@ -91,10 +90,19 @@
                             <div>
                                 <p>Travelers</p>
                                 <div id="counters">
-                                    <button>room</button>
-                                    <button>travelers</button>
+                                    <div>
+                                        <p id="c1"></p>
+                                        <button id="room-btn">room</button>
+                                    </div>
+                                    <div>
+                                        <p id="c2"></p>
+                                        <button id="trav-btn">travelers</button>
+                                    </div>
+                                    <div>
+                                        <button id="reset">Reset</button>
+                                    </div>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                     <div id="checkbox">
@@ -102,7 +110,7 @@
                         <input id="car-check" type="checkbox"> <label for="car-check">Add a Car</label>
                     </div>
                     <div id="search-btn">
-                        <button>Search</button>
+                        <input type="button" value="Search" onClick="window.location.href= '';">
                     </div>
                 </form>
             </div>
@@ -111,8 +119,8 @@
     <div></div>
 
 
-    <!-- ======================================== -->
-    <!-- ========================================Row -2 Started -->
+    <!-- ================== -->
+    <!-- =====Row2 -->
 
     <div id="row2-start">
         <div id="row2-info">
@@ -135,8 +143,8 @@
     </div>
 
     
-    <!-- ======================================== -->
-    <!-- ========================================Row -3 Started-- Featured Offer -->
+    <!-- ================-->
+    <!--Row3-- Featured Offer -->
 
     <div id="row3-offers">
         <h2>Featured Offers</h2>
@@ -172,8 +180,8 @@
         </div>
     </div>
 
-    <!-- ======================================== -->
-    <!-- ========================================Row -4 Started-- Top Deal Offer -->
+    <!-- =========-->
+    <!--Row4 Top Deal Offer -->
 
     <div id="row4-deals">
         <div>
@@ -189,8 +197,8 @@
     </div>
 
 
-    <!-- ======================================== -->
-    <!-- ========================================Row -5 Started-- Top Deal Offer -->
+    <!-- ==========-->
+    <!--Row5 Top Deal Offer -->
 
     <div id="row4-help">
         <h1>Here To help keep you on the move</h1>
@@ -219,14 +227,13 @@
         </div>
     </div>
 
-     <!-- ======================================== -->
-    <!-- ========================================Row -5 Started-- Travelling tips -->
+    <!-- ==========-->
+    <!-- Row5 Travelling tips -->
 
     <div id="row5-travel-tips">
         <h1>Traveling tips</h1>
         <div id="tips-card">
             <div>
-                <!-- <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg" alt="tip1"> -->
                 <div class="tips-info">
                     <h2>National Park</h2>
                     <p>There's plenty to keep you busy.</p>
@@ -234,7 +241,6 @@
                 </div>
             </div>
             <div>
-                <!-- <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_1199x399_20211117.jpg" alt="tip2"> -->
                 <div class="tips-info">
                     <h2>The perfect road trip</h2>
                     <p>Find an adventure for every season.</p>
@@ -244,8 +250,196 @@
         </div>
     </div>
 
+    <!-- ======== -->
+    <!--Row6 Trip add section -->
+
+    <div id="trip-add-zone">
+        <img src="https://tpc.googlesyndication.com/simgad/10056509806482740393?" alt="tripAdd">
+    </div>
+
+
+    <!-- =======-->
+    <!--row7 orbitz app scanner section -->
+
+    <div id="row6-app-scanner">
+        <div>
+            <img src="https://a.travel-assets.com/mad-service/footer/marquee/ORB_App_Footer_v1.jpg" alt="mob1">
+        </div>
+        <div id="app-box">
+            <div id="app-info">
+                <h2>Rewards are waiting for you in the Orbitz app</h2>
+                <ul>
+                    <li>Earn 4% back when you book your hotel in app, vs. 3% on site</li>
+                    <li>Get flight status and gate number notifications</li>
+                    <li>Have questions about your stay? Message your hotel right in the app</li>
+                </ul>
+                <form id="get-app-form" action="">
+                    <h3>Text Yourself a download link</h3>
+                    <div>
+                        <select name="" id="country-codes">
+                            <option default><span>country code</span></option>
+                            <option value="Albania">Albania +355</option>
+                            <option value="Antarctica">Antarctica +672</option>
+                            <option value="Australia">Australia +61</option>
+                            <option value="Bahrain">Bahrain +973</option>
+                            <option value="Bangladesh">Bangladesh +880</option>
+                            <option value="Belgium">Belgium +32</option>
+                            <option value="Bhutan">Bhutan +975</option>
+                            <option value="Brazil">Brazil +55</option>
+                            <option value="Cambodia">Cambodia +855</option>
+                            <option value="Canada">Canada +1</option>
+                            <option value="China">China +86</option>
+                            <option value="Cocos-Islands">Cocos Islands +61</option>
+                            <option value="Denmark">Denmark +45</option>
+                            <option value="Egypt">Egypt +20</option>
+                            <option value="France">France +33</option>
+                            <option value="Hong-Kong">Hong Kong SAR +852</option>
+                            <option value="India">India +91</option>
+                            <option value="Italy">Italy +39</option>
+                            <option value="Japan">Japan +81</option>
+                            <option value="Liberia">Liberia +231</option>
+                        </select>
+                        <input id="mob-num" type="number" placeholder="Phone Number">
+                        <input id="app-btn" type="button" value="Get the app">
+                    </div>
+                    <p>By providing your number, you agree to receive a one-time automated text message with a link to get the app. Standard text message rates may apply.</p>
+                </form>
+            </div>
+            <div id="scanner-code">
+                <img src="https://a.travel-assets.com/mad-service/qr-code/portfolio_app_landing/qr_app_landing_footer_orbitz.png" alt="Scanner-code">
+                <p>Scan the QR code</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- =======-->
+    <!--row8 More Destination section -->
+
+    <div id="row8-dest-box">
+        <h1>More Destination</h1>
+        <div id="section-check">
+            <div class="wrapper">
+                <div class="select-btn">
+                    <span>Destination deals</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="content">
+                    <ul class="options">
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="wrapper">
+                <div class="select-btn">
+                    <span>Top hotel beach Destinations</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="content">
+                    <ul class="options">
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="wrapper">
+                <div class="select-btn">
+                    <span>Top hotel city Destinations</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="content">
+                    <ul class="options">
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="wrapper">
+                <div class="select-btn">
+                    <span>Top Vacation Destinations</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="content">
+                    <ul class="options">
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="wrapper">
+                <div class="select-btn">
+                    <span>Top flight Destinations</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="content">
+                    <ul class="options">
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="wrapper">
+                <div class="select-btn">
+                    <span>Top car rental Destinations in America</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="content">
+                    <ul class="options">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--last row footer secion -->
+
+    <div id="footer">
+        <div>
+            <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" alt="">
+        </div>
+        <div>
+            <h4>Comapany</h4>
+            <a href="">About</a>
+            <a href="">Jobs</a>
+            <a href="">List your Property</a>
+            <a href="">Partenerships</a>
+            <a href="">Newsroom</a>
+            <a href="">Invester Relation</a>
+            <a href="">Site Map</a>
+            <a href="">Orbitz Reward</a>
+            <a href="">Advertising</a>
+           
+        </div>
+        <div>
+            <h4>Explore</h4>
+            <a href="">Hotels in United States</a>
+            <a href="">Vacation Rental in United Sates</a>
+            <a href="">Car Rentals in United States</a>
+            <a href="">Domestic Flights</a>
+            <a href="">Vacation Package in United States</a>
+            <a href="">Orbitz Reward</a>
+            <a href="">Orbitz Coupans</a>
+            <a href="">LGBTQ Travel</a>
+            <a href="">Unique Accommodations</a>
+            <a href="">Travel Blog</a>
+            
+        </div>
+        <div>
+            <h4>Policies</h4>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Us href=""e</a>
+            <a href="">Vrbo term and conditions</a>
+            <a href="">Orbitz Rewards Terms</a>
+            <a href="">Do not sell my personal information</a>
+        </div>
+        <div>
+            <h4>Help</h4>
+            <a href="">Support</a>
+            <a href="">Cancel your hotel or vacation renatl booking</a>
+            <a href="">cancel your flight</a>
+            <a href="">refund timelines,policies</a>
+            <a href="">use an Orbitz Coupan</a>
+        </div>
+    </div>
 </body>
 </html>
+
+<script src="./homepage.js"></script>
 
 
 
