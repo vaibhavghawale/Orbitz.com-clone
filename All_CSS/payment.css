@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #EDEDED;
+}
+
+/* Universal */
+input,
+select{
+    height: 40px;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid gray;    
+    border-radius: 5px;
+}
+span{
+    color: black;
+}
+
+
+#main-container{
+    width: 75%;
+    margin: auto;
+}
+#main-container > h2{
+    margin: 25px auto;
+}
+
+
+/* covid message div */
+
+#covid-message{
+    display: flex;
+    width: 100%;
+    background-color: #F0DCB4;
+    font-size: 17px;
+    padding: 15px 20px;
+    color: #7A5505;
+    border-left: 3px solid #7A5505;
+}
+#covid-message > div > p:nth-child(1){
+    margin-bottom: 10px;
+}
+#covid-message a{
+    color: #7A5505;
+}
+#covid-message > div{
+    margin-left: 15px;
+}
+#covid-message > i:nth-child(3){
+    margin-left: auto;
+}
+
+/* cancellation message div */
+#cancel-message{
+    padding: 15px 15px;
+    display: flex;
+    background-color: #fff;
+    margin: 20px auto;
+    align-items: center;
+}
+#cancel-message img{
+    height: 55px;
+}
+#cancel-message > div:nth-child(2){
+    margin-left: 15px;
+}
+#cancel-message div:nth-child(2) > p:nth-child(2){
+    margin-top: 5px;
+    font-size: 14px;
+    color: gray;
+}
+
+/*main Flex contianer*/
+#main-flex-container{
+    display: flex;
+    gap: 15px;
+}
+#main-flex-container img{
+    width: 100%;
+}
+#main-flex-container > div:nth-child(1){
+    width: 70%;
+}
+#main-flex-container > div:nth-child(2){
+    width: 35%;
+}
+
+/*Sign in div optional*/
+#sign-in-div{
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 20px;
+}
+#sign-in-div > i{
+    font-size: 20px;
+}
+#sign-in-div > a{
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(98, 98, 246);
+}
+#sign-in-div > a > i{
+    margin-left: 5px;
+}
+
+/*Personal Details*/
+#name-details{
+    display: flex;
+    background-color: #fff;
+    padding: 20px 15px 60px 15px;
+}
+#name-details > div:nth-child(1){
+    font-size: 20px;
+}
+#name-details > div:nth-child(2){
+    width: 90%;
+    margin-left: 25px;
+}
+#name-details > div:nth-child(2) > p:nth-child(1){
+    font-size: 17px;
+}
+#name-details > div:nth-child(2) > p:nth-child(1) > span{
+    font-weight: bold;
+    margin-right: 10px;
+}
+#name-details > div:nth-child(2) > p:nth-child(2)
+{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: green;
+}
+#name-details > div:nth-child(2) > p:nth-child(2) > i{
+    font-weight: bold;
+    margin-right: 5px;  
+}
+#name-details > div:nth-child(2) > p:nth-child(2) > i:nth-child(2){
+    margin-left: 15px;
+}
+
+#name-details > div:nth-child(2) > div:nth-child(3){
+    display: flex;
+    margin: 30px auto;
+    gap: 25px;
+}
+#name-details > div:nth-child(2) > div:nth-child(3) p{
+    margin-bottom: 5px;
+}
+.color-red{
+    color: red;
+}
+#name-details > div:nth-child(2) > div:nth-child(3)  input{
+    width: 250px;
+}
+
+#name-details > div:nth-child(2) > div:nth-child(4){
+
+}
+#name-details > div:nth-child(2) > div:nth-child(4) > div{
+    display: flex;
+    align-items: center;
+}
+#name-details > div:nth-child(2) > div:nth-child(4) select:nth-child(1){
+    font-size: 16px;
+    padding: 0 10px;
+}
+#name-details > div:nth-child(2) > div:nth-child(4) input:nth-child(2){
+    width: 390px;
+    margin-left: 10px;
+}
+#name-details > div:nth-child(2) > div:nth-child(4) > p{
+    margin-bottom: 10px;
+}
+
+#name-details > div:nth-child(2) > p:nth-child(5){
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 13px;
+}
+#name-details > div:nth-child(2) > p:nth-child(5) > input{
+    width: 18px;
+    height: 18px;
+    margin-right: 3px;
+}
+
+
+/*Hotel Details*/
+#hotel-details{
+    background: #fff;
+}
+#hotel-details span{
+    font-weight: bold;
+
+}
+#hotel-details p{
+    color: gray;
+    font-size: 14px;
+}
+#hotel-details > div:nth-child(1){
+    position: relative;
+}
+#hotel-details > div:nth-child(1) > img{
+    height: 50%;
+    object-fit: cover;
+    height: 180px;
+}
+#hotel-details > div:nth-child(1) > p{
+    position: absolute;
+    color: #fff;
+    bottom: 15px;
+    left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#hotel-details > div:nth-child(2){
+    padding: 20px 15px;
+}
+#hotel-details > div:nth-child(2) > p:nth-child(1){
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+#hotel-details > div:nth-child(2) > p:nth-child(3){
+    margin: 25px 0;
+}
+#hotel-details > div:nth-child(2) > p:nth-child(5){
+    margin: 5px 0;
+}
