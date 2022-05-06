@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./All_CSS/payment.css">
     <script src="https://kit.fontawesome.com/fb4898ffd1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Orbitz: Payment</title>
 </head>
 <body>
@@ -76,8 +77,203 @@
                         </div>
 
                         <p><input type="checkbox" checked>Receive text alerts about this trip. Message and data rates may apply.</p>
+
+                        <div>
+                            <a href="#">Smoking requests (optional)<span class="material-symbols-outlined">
+                            keyboard_double_arrow_down 
+                            </span></a>
+                        </div>
+
+                        <div>
+                            <a href="#">Special requests (optional)<span class="material-symbols-outlined">
+                            keyboard_double_arrow_down
+                            </span></a>
+                        </div>
                     </div>
                 </div>
+
+
+                <div id="protect-hotel">
+                    <div>
+                        <i class="fa-solid fa-shield"></i>
+                        <h2>Protect your hotel <span class="primary-btn">Recommended</span></h2>
+                    </div>
+
+                    <div id="imp-info">
+                        <!-- <i class="fa-solid fa-circle-info"></i> -->
+                        <p> <span><i class="fa-solid fa-circle-info"></i>Important: </span>
+                            Trip cancellation due to government travel advisories, fear of travel, or change of mind is not covered. Travel insurance may provide coverage for COVID-19 diagnosed illness. COVID-19 is a foreseen event and certain other coverages will not apply. <a href="#">Learn more</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <p><span>Note: </span>If you are a resident of WASHINGTON state, please click here to view products that you are eligible to purchase.</p>
+                        <h3>4 reasons you might need travel protection</h3>
+                        <div>
+                            <ol>
+                                <li>You get delayed for covered reasons and miss a night of your hotel stay</li>
+                                <li>You're sick and don't use all your hotel nights</li>
+                                <li>You need to extend your trip due to the illness of a travel companion</li>
+                                <li>You need up to $10,000 for covered medical expenses while on your trip</li>
+                            </ol>
+                        </div>
+
+                        <a href="#">View insurance details and disclosures<i class="fa-regular fa-clone"></i></a>
+
+                        <div>
+                            <h4>Select Yes or No to continue booking <span class="color-red">*</span></h4>
+                            <div>
+                                <div>
+                                    <input type="checkbox">Yes, I want Hotel Booking Protection Plus for my trip.
+                                </div>
+                                <div>
+                                    <h2>$8.00</h2>
+                                    <p>per person</p>
+                                </div>
+                            </div>
+                            <div>
+                                <input type="checkbox">No, I'm willing to risk my $103.36 trip.
+                            </div>
+                        </div>
+
+                        <p class="quote"><span>“ Things happened outside of my control which caused the trip to be canceled. The Travel Protection was valuable in reducing the losses to me when we had to cancel the trip. ”</span> - Mr. Rodman</p>
+                    </div>
+                </div>
+
+                <div id="card-details">
+
+                    <div>
+                        <i class="fa-solid fa-credit-card"></i>
+                    </div>
+
+                    <div>
+
+                        <div>
+                            <p><i class="fa-solid fa-check"></i>We use secure transmission</p>
+                            <p><i class="fa-solid fa-check"></i>We protect your personal information</p>
+                        </div>
+
+                        <div>
+
+                            <div class="card-imgs">
+                                <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_master_card.svg" alt="">
+                                <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_american_express.svg" alt="">
+                                <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_china_union_pay.svg" alt="">
+                                <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_diners_club.svg" alt="">
+                                <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_discover.svg" alt="">
+                                <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_jcb.svg" alt="">
+                                <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_visa.svg" alt="">
+                            </div>
+
+                            <form id="card-form">
+                                <p>Name on Card<span class="color-red">*</span></p>
+                                <input type="text" id="name">
+                                <p>Debit/Credit card number<span class="color-red">*</span></p>
+                                <input type="number" id="card-number">
+                                <p>Expiration date<span class="color-red">*</span></p>
+                                <div>
+                                    <select id="expiry_month">
+                                        <option value="null">Month</option>
+                                        <option value="1">Jan</option>
+                                        <option value="2">Feb</option>
+                                        <option value="3">Mar</option>
+                                        <option value="4">Apr</option>
+                                        <option value="5">May</option>
+                                        <option value="7">Jul</option>
+                                        <option value="8">Aug</option>
+                                        <option value="9">Sep</option>
+                                        <option value="10">Oct</option>
+                                        <option value="11">Nov</option>
+                                        <option value="12">Dec</option>
+                                    </select>
+                                    <select id="expiry_year">
+                                        <option value="null">Year</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2024">2024</option>
+                                        <option value="2025">2025</option>
+                                        <option value="2026">2026</option>
+                                        <option value="2027">2027</option>
+                                        <option value="2028">2028</option>
+                                        <option value="2029">2029</option>
+                                        <option value="2030">2030</option>
+                                        <option value="2031">2031</option>
+                                        <option value="2032">2032</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <div>
+                                        <p>security code <span class="color-red">*</span></p>
+                                        <input type="number" id="security-code">
+                                    </div>
+                                    <div>
+                                        <p>Billing ZIP code <span class="color-red">*</span></p>
+                                        <input type="number" id="zip-code">
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div id="manage-bookings">
+                    <div>
+                        <h2>Manage your booking</h2>
+                    </div>
+                    <div>
+                        <h3>Confirmation email</h3>
+                        <p>Please enter the email address where you would like to receive your confirmation.</p>
+                        <div>
+                            <p>Email address<span class="color-red">*</span></p>
+                            <input type="email">
+                        </div>
+
+                        <hr>
+
+                        <h3>Create an account</h3>
+                        <p>Easily access your itinerary when you create an account using the email address above.</p>
+                        <div>
+                            <h4>Create password</h4>
+                            <input type="text" placeholder="6 - 30 characters, no spaces">
+                            <h4>Confirm password</h4>
+                            <input type="text">
+                        </div>
+                        <p>By creating an account, I agree to the <a href="#">Orbitz Rewards Terms and Conditions.</a></p>
+                    </div>
+                </div>
+
+                <div id="info-about-booking">
+
+                    <h3>Important information about your booking</h3>
+                    <ul>
+                        <li>Cancellations or changes made after 2:00pm (property local time) on May 17, 2022 or no-shows are subject to a property fee equal to 100% of the total amount paid for the reservation.</li>
+                        <li>This property offers transfers from the train station. To arrange pick-up, guests must contact the property 24 hours prior to arrival, using the contact information on the booking confirmation. Front desk staff will greet guests on arrival. For more details, please contact the property using the information on the booking confirmation.</li>
+                        <li>This property requires valid identification for all guests at check-in.</li>
+                    </ul>
+
+                    <p class="terms-conditions">By clicking on the button below, I acknowledge that I have reviewed the <a href="#">Privacy Statement<i class="fa-regular fa-clone"></i></a> and  <a href="#">Government Travel Advice<i class="fa-regular fa-clone"></i></a> and have reviewed and accept the <a href="#">Rules & Restrictions<i class="fa-regular fa-clone"></i></a> and <a href="#">Terms of Use<i class="fa-regular fa-clone"></i></a>.</p>
+
+                    <div>
+                        <i class="fa-solid fa-check"></i>Change of plans? No problem. You can <b>cancel for free</b> before <a href="#">Tue, May 17</a>
+                    </div>
+
+                    <button class="danger-btn">Complete Booking <i class="fa-solid fa-angle-right"></i></button>
+
+                    <div>
+                        <i class="fa-solid fa-lock"></i>
+                        <div>
+                            <p>We use secure transmission and encrypted storage to protect your personal information.</p>
+                            <p>This payment will be processed in the U.S. This does not apply when the travel provider (airline/hotel/rail, etc.) processes your payment.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
             </div>
 
             <div>
@@ -99,6 +295,26 @@
                         <p><span>Check-out:</span> Thu, May 19</p>
                         <p>1-night stay</p>
                     </div>
+                </div>
+
+                <div id="price-details">
+                    <h2>Price details</h2>
+                    <hr>
+                    <div>
+                        <p>1 room x 1 night</p>
+                        <p>$92.29</p>
+                    </div>
+                    <div>
+                        <p>Taxes and fees</p>
+                        <p>$11.07</p>
+                    </div>
+
+                    <div>
+                        <h3>Total</h3>
+                        <h3>$103.36</h3>
+                    </div>
+                    <p>Use a coupon, credit or promotion code</p>
+
                 </div>
                 
 

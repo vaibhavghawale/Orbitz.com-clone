@@ -20,6 +20,17 @@ select{
 span{
     color: black;
 }
+a{
+    text-decoration: none;
+}
+.primary-btn{
+    color: white;
+    font-size: 13px;
+    background-color: green;
+    padding: 3px;
+    border-radius: 5px;
+}
+
 
 
 #main-container{
@@ -159,10 +170,6 @@ span{
 #name-details > div:nth-child(2) > div:nth-child(3)  input{
     width: 250px;
 }
-
-#name-details > div:nth-child(2) > div:nth-child(4){
-
-}
 #name-details > div:nth-child(2) > div:nth-child(4) > div{
     display: flex;
     align-items: center;
@@ -189,6 +196,282 @@ span{
     width: 18px;
     height: 18px;
     margin-right: 3px;
+}
+#name-details > div:nth-child(2) > div:nth-child(6){
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+#name-details > div:nth-child(2) > div:nth-child(6) > a,
+#name-details > div:nth-child(2) > div:nth-child(7) > a{
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 20;
+  color: blue;
+  margin-left: 5px;
+}
+
+#protect-hotel{
+    padding: 25px;
+    background-color: #fff;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(62, 61, 61);
+}
+#protect-hotel span{
+    font-weight: bold;
+}
+#protect-hotel > div:nth-child(1){
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+}
+#protect-hotel > div:nth-child(1) > i{
+    font-size: 20px;
+    margin-right: 20px;
+}
+#protect-hotel > div:nth-child(1) > h2{
+    display: flex;
+    align-items: center;
+}
+#protect-hotel > div:nth-child(1) > h2 > span{
+    margin-left: 5px;
+}
+#imp-info{
+    border: 1px solid gray;
+    border-radius: 3px;
+    display: flex;
+    padding: 15px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+#imp-info > p > span{
+    font-weight: bold;
+}
+#imp-info > p > span > i{
+    margin-right: 10px;
+}
+#imp-info > p > a{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+
+#protect-hotel > div:nth-child(3){
+    margin-left: 30px;
+    padding: 5px;
+} 
+#protect-hotel > div:nth-child(3) > p{
+    margin-bottom: 5px;
+}
+#protect-hotel > div:nth-child(3) > h3{
+    margin-bottom: 15px;
+}
+#protect-hotel > div:nth-child(3) > div:nth-child(3){
+    padding: 15px;
+    color: rgb(62, 61, 61);
+}
+#protect-hotel > div:nth-child(3) > div:nth-child(3) li{
+    margin-bottom: 10px;
+}
+#protect-hotel > div:nth-child(3) > a{
+    font-size: 12px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+#protect-hotel > div:nth-child(3) > a > i{
+    margin-left: 10px;
+}
+#protect-hotel > div:nth-child(3) > div:nth-child(5) input{
+    border-radius: 50%;
+    margin-right: 5px;
+}
+#protect-hotel > div:nth-child(3) > div:nth-child(5) > div {
+    padding: 20px;
+    background-color: #EDFAE6;
+    margin: 10px 0;
+    display: flex;
+}
+#protect-hotel > div:nth-child(3) > div:nth-child(5) > div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+#protect-hotel > div:nth-child(3) > div:nth-child(5) > div:nth-child(2) > div:nth-child(1),
+#protect-hotel > div:nth-child(3) > div:nth-child(5) > div:nth-child(3){
+    display: flex;
+    align-items: center;
+}
+#protect-hotel > div:nth-child(3) > div:nth-child(5) > div:nth-child(3){
+    background-color: #F5F5F5;
+}
+
+#protect-hotel  .quote{
+    margin-top: 35px;
+}
+#protect-hotel  .quote > span{
+    font-weight: normal;
+    font-style: italic;
+}
+
+#card-details{
+    padding: 25px;
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+}
+#card-details > div:nth-child(1){
+    margin-right: 20px;
+    font-size: 20px;
+}
+#card-details > div:nth-child(2) > div:nth-child(1){
+    display: flex;
+    color: green;
+    margin-bottom: 50px;
+}
+#card-details > div:nth-child(2) > div:nth-child(1) > p:nth-child(1){
+    margin-right: 30px;
+}
+#card-details > div:nth-child(2) > div:nth-child(1) > p > i{
+    margin-right: 5px;
+}
+.card-imgs > img{
+    height: 20px;
+    border: 1px solid gray;
+    margin: 0 5px;
+}
+.card-imgs {
+    display: flex;
+    width: 60%;
+    margin: 25px 0;
+}
+#card-form{
+    font-weight: bold;
+    color: rgb(62, 61, 61);
+}
+#card-form  input{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+#card-form > input:nth-child(2){
+    width: 100%;
+}
+#card-form > input:nth-child(4){
+    width: 60%;
+}
+#card-form > div:nth-child(6) select{
+    padding: 0 20px;
+    background-color: #F2F2F2;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+#card-form > div:nth-child(7){
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+#card-form > div:nth-child(7) > div:nth-child(1) input:nth-child(2){
+    width: 35%;
+}
+#card-form > div:nth-child(7) > div:nth-child(2) input:nth-child(2){
+    width: 70%;
+}
+
+/* Manage bookings */
+#manage-bookings{
+    background-color: #fff;
+    margin-top: 20px;
+}
+#manage-bookings > div:nth-child(1){
+    padding: 20px 25px;
+    border-bottom: 1px solid gray;
+}
+#manage-bookings > div:nth-child(2){
+    padding: 20px 25px;
+}
+#manage-bookings > div:nth-child(2) > h3,
+#manage-bookings > div:nth-child(2) > p{
+    margin: 15px 0;
+}
+#manage-bookings > div:nth-child(2) > p{
+    font-size: 14px;
+    color: gray;
+}
+#manage-bookings > div:nth-child(2) input{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+#manage-bookings > div:nth-child(2) > div:nth-child(3) input{
+    width: 60%;
+}
+#manage-bookings > div:nth-child(2) > div:nth-child(7) input{
+    width: 35%;
+}
+#manage-bookings > div:nth-child(2) > p:last-child{
+    margin-top: 0;
+}
+
+/* Info about booking*/
+#info-about-booking{
+    padding: 25px;
+    background-color: #fff;
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(47, 43, 43);
+}
+#info-about-booking > h3{
+    margin-bottom: 25px;
+    color: black;
+}
+#info-about-booking > ul{
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
+#info-about-booking > ul > li{
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+#info-about-booking > p{
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+#info-about-booking > p  i{
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+#info-about-booking > div:nth-child(4) i{
+    margin-right: 10px;
+}
+#info-about-booking .danger-btn{
+    background-color: #e32d5e;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin: 25px 0;
+    border: 0;
+}
+#info-about-booking .danger-btn:hover{
+    background-color: #bd3458;
+}
+#info-about-booking > div:nth-child(6){
+    display: flex;
+}
+#info-about-booking > div:nth-child(6) > i{
+    margin-right: 20px;
+}
+#info-about-booking > div:nth-child(6) p:nth-child(2){
+    margin-top: 15px;
+    line-height: 1.5;
 }
 
 
@@ -232,4 +515,28 @@ span{
 }
 #hotel-details > div:nth-child(2) > p:nth-child(5){
     margin: 5px 0;
+}
+
+
+/*Price Details*/
+#price-details{
+    background-color: #fff;
+    margin-top: 20px;
+}
+#price-details > h2,
+#price-details > p{
+    padding: 15px 25px;
+}
+#price-details > hr{
+    color: rgb(195, 193, 193);
+}
+#price-details > div{
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+#price-details > div:nth-child(4) {
+    padding: 30px 0;
+    margin: 0 25px;
+    border-bottom: 1px solid gray;
 }
