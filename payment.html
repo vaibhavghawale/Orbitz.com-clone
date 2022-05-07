@@ -21,7 +21,7 @@
                     <i class="fa-regular fa-clone"></i>
                 </p>
             </div>
-            <i class="fa-solid fa-xmark"></i>
+            <i class="fa-solid fa-xmark" id="covid-close"></i>
         </div>
 
         <div id="cancel-message">
@@ -60,7 +60,7 @@
                                 <p>Last name<span class="color-red">*</span></p>
                                 <input type="text" placeholder="(e.g. John)">
                             </div>
-                        </div>
+                        </div> 
 
                         <div>
                             <p>Mobile phone number<span class="color-red">*</span></p>
@@ -261,7 +261,7 @@
                         <i class="fa-solid fa-check"></i>Change of plans? No problem. You can <b>cancel for free</b> before <a href="#">Tue, May 17</a>
                     </div>
 
-                    <button class="danger-btn">Complete Booking <i class="fa-solid fa-angle-right"></i></button>
+                    <button id="submit" class="danger-btn">Complete Booking <i class="fa-solid fa-angle-right"></i></button>
 
                     <div>
                         <i class="fa-solid fa-lock"></i>
@@ -280,7 +280,7 @@
 
                 <div id="hotel-details">
                     <div>
-                        <img src="https://images.trvl-media.com/hotels/9000000/8740000/8738300/8738241/9fdc0ad2_l.jpg" alt="">
+                        <img id="reserved-hotel-img" src="" alt="">
                         <p>Vivanta New Delhi, Dwarka</p>
                     </div>
                     <div>
@@ -302,24 +302,24 @@
                     <hr>
                     <div>
                         <p>1 room x 1 night</p>
-                        <p>$92.29</p>
+                        <p id="room-price">$92.29</p>
                     </div>
                     <div>
                         <p>Taxes and fees</p>
-                        <p>$11.07</p>
+                        <p id="tax">$11.07</p>
                     </div>
 
                     <div>
                         <h3>Total</h3>
-                        <h3>$103.36</h3>
+                        <h3 id="total-price">$103.36</h3>
                     </div>
                     <p>Use a coupon, credit or promotion code</p>
 
                 </div>
                 
-
             </div>
         </div>
     </div>
 </body>
 </html>
+<script src="./All_js/payment.js"></script>

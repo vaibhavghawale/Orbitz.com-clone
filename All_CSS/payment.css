@@ -31,6 +31,11 @@ a{
     border-radius: 5px;
 }
 
+/*For div hide*/
+.hide{
+    display: none;
+}
+
 
 
 #main-container{
@@ -64,6 +69,7 @@ a{
 }
 #covid-message > i:nth-child(3){
     margin-left: auto;
+    cursor: pointer;
 }
 
 /* cancellation message div */
@@ -168,7 +174,7 @@ a{
     color: red;
 }
 #name-details > div:nth-child(2) > div:nth-child(3)  input{
-    width: 250px;
+    width: 100%;
 }
 #name-details > div:nth-child(2) > div:nth-child(4) > div{
     display: flex;
@@ -178,8 +184,8 @@ a{
     font-size: 16px;
     padding: 0 10px;
 }
-#name-details > div:nth-child(2) > div:nth-child(4) input:nth-child(2){
-    width: 390px;
+#name-details > div:nth-child(2) > div:nth-child(4) input{
+    width: 48%;
     margin-left: 10px;
 }
 #name-details > div:nth-child(2) > div:nth-child(4) > p{
@@ -539,4 +545,39 @@ a{
     padding: 30px 0;
     margin: 0 25px;
     border-bottom: 1px solid gray;
+}
+
+
+/* Media Query small and medium screen*/
+
+@media all and (max-width: 760px){
+    #main-container{
+        width: 90%;
+    }
+    #main-flex-container{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-size: 14px;
+    }
+    #sign-in-div{
+        order: 1;
+    }
+    #sign-in-div a{
+        font-size: 15px;
+    }
+    #main-flex-container > div:nth-child(1){
+        width: 100%;
+        order: 3;
+    }
+    #main-flex-container > div:nth-child(2){
+        width: 100%;
+        order: 2;
+    }
+    #name-details > div:nth-child(2) > div:nth-child(3) input{
+        width: 100%;
+    }
+    #name-details > div:nth-child(2) > div:nth-child(4) input{
+        width: 60%;
+    }
 }
