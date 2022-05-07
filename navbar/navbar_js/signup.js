@@ -17,6 +17,6 @@ form.addEventListener("submit", function(){
     }
 
     localStorage.setItem("userData", JSON.stringify(data));
-    alert("Sign Success");
-    window.location.href="signin.html"
+    // alert("Sign Success");
+    window.location.href="welcome.html"
 })

@@ -21,6 +21,7 @@
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     
 }
+
 #navbar_options{
     width: 40%;
     display: flex;
@@ -58,7 +59,7 @@ a{
 #moreopt{
     display: none;
     margin-top: 30px;
-    margin-left: 300px;
+    margin-left: 250px;
     width: 375px;
     background-color: white;
     position: absolute;
@@ -66,17 +67,19 @@ a{
     border-radius: 10px;
 }
 #moreopt>div{
-    color: #00253C;
-    height: 48px;
+    color: #1F1F1F;
+    height: 30px;
     margin-left: 10px;
     font-weight: normal;
+    padding-top: 10px;
+    font-size: 14px;
 
 }
 #sing_in_button{
     display: none;
     margin-top: 30px;
-    margin-left:30px ;
-    width: 400px;
+    margin-left:70px ;
+    width: 375px;
     background-color: white;
     position: absolute;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -88,8 +91,6 @@ a{
     height: 48px;
     margin-left: 10px;
     font-weight: normal;
-    
-
 }
 .signin_redirect>button{
     padding: 3% 40% 3% 40%;
@@ -115,8 +116,24 @@ a{
 }
 p:hover{
     color:#007E8F;
+    margin-left:10px;
 }
+.fa-solid{
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+        @media all and (min-width:576px) and (max-width:930px)
+        {#nnavbar_options{
+        }
 
-
-
-
+    }
+        @media all and (min-width:321px) and (max-width:575px)
+        { #navbar_options{
+            
+        }}
+        @media all and (min-width:240px) and (max-width:321px)
+        { #navbar_options{
+            
+        }}

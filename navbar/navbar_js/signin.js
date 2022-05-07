@@ -14,18 +14,20 @@
             signuppassword: sign_in_form.signuppassword.value
         }
 
-        if(userData == null)
-            // window.location.href="signup.html"
+        if(userData == null){
+            window.location.href="#"
             alert("Please Create Account");
-            
+        }
+          
         else if(data.signinemail == userData.useremail && data.signuppassword == userData.userpassword)
         {
             localStorage.setItem("signin",JSON.stringify(data));
-            window.location.href="#";
+            window.location.href="";
             alert("Login succesfull");
         }
         else{
             alert("user does not exists");
+            
         }
 
     })
