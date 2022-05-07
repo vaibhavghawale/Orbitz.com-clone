@@ -6,9 +6,9 @@ var dataGoa = [
     hotelName: "Goa Marriott resort & Spa",
     hotelLocation: "panji",
     hotelDetail:
-      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
+      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm award-wining hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$" + 172,
+    price: 172,
     rating: 4.6,
   },
   {
@@ -18,9 +18,9 @@ var dataGoa = [
     hotelName: "Adam's Beach Resort by Banda Trips",
     hotelLocation: "Baga",
     hotelDetail:
-      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
+      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm award-wining hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$" + 272,
+    price: 272,
     rating: 4.4,
   },
   {
@@ -30,9 +30,9 @@ var dataGoa = [
     hotelName: "Novatel Goa Dona Sylvia Hotel",
     hotelLocation: "Cavelossim",
     hotelDetail:
-      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
+      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm award-wining hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$" + 89,
+    price: 89,
     rating: 3.6,
   },
   {
@@ -42,9 +42,9 @@ var dataGoa = [
     hotelName: "Azaya Beach Resort",
     hotelLocation: "Benaulim",
     hotelDetail:
-      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
+      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm award-wining hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$" + 164,
+    price: 164,
     rating: 4.1,
   },
   {
@@ -54,9 +54,9 @@ var dataGoa = [
     hotelName: "Taj Exotic Resort & Spa, Goa",
     hotelLocation: "Benaulim",
     hotelDetail:
-      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
+      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm award-wining hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$" + 576,
+    price: 576,
     rating: 4.7,
   },
   {
@@ -66,9 +66,9 @@ var dataGoa = [
     hotelName: "The Leela Goa",
     hotelLocation: "Cavelossim",
     hotelDetail:
-      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
+      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm award-wining hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$" + 272,
+    price: 272,
     rating: 4.2,
   },
   {
@@ -78,9 +78,9 @@ var dataGoa = [
     hotelName: "Hilton Goa Resort",
     hotelLocation: "Saipem",
     hotelDetail:
-      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
+      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm award-wining hospitality",
     refundTag: "Fully refundable ",
-    price: "$" + 143,
+    price: 143,
     rating: 3.9,
   },
   {
@@ -90,9 +90,9 @@ var dataGoa = [
     hotelName: "Fairfield By Marriott Goa Anjuna",
     hotelLocation: "Anjuna",
     hotelDetail:
-      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
+      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm award-wining hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$" + 68,
+    price: 68,
     rating: 3.2,
   },
   {
@@ -102,9 +102,9 @@ var dataGoa = [
     hotelName: "Le Meridien Goa, Calangute",
     hotelLocation: "Calangute",
     hotelDetail:
-      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
+      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm award-wining hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$" + 105,
+    price: 105,
     rating: 3.3,
   },
   {
@@ -114,9 +114,9 @@ var dataGoa = [
     hotelName: "The Westin Goa",
     hotelLocation: "Anuja",
     hotelDetail:
-      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
+      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm award-wining hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$" + 167,
+    price: 167,
     rating: 3.8,
   },
   {
@@ -126,9 +126,9 @@ var dataGoa = [
     hotelName: "Taj Resort & Convention Center, Goa",
     hotelLocation: "Dona Paula",
     hotelDetail:
-      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm Goan hospitality",
+      "Situated on the edge of the Miramar beach with oicturesque views. enjoy luxury services coupled with warm award-wining hospitality",
     refundTag: "Fully refundable Reserve now, pay latter",
-    price: "$" + 247,
+    price: 247,
     rating: 4.5,
   },
 ];
@@ -138,6 +138,7 @@ var hotel = document.querySelector("#hotel");
 display(dataGoa);
 
 function display(dataGoa) {
+  hotel.innerHTML = "";
   dataGoa.forEach(function (elem) {
     var hotelBox = document.createElement("div");
     var hotelimg = document.createElement("img");
@@ -154,7 +155,7 @@ function display(dataGoa) {
     var ratting = document.createElement("p");
     ratting.innerText = elem.rating;
     var cost = document.createElement("p");
-    cost.innerText = elem.price;
+    cost.innerText = "$" + elem.price;
     costBox.append(ratting, cost);
     var refund = document.createElement("p");
     refund.innerText = elem.refundTag;
@@ -163,4 +164,34 @@ function display(dataGoa) {
     hotelBox.append(hotelimg, innerbox);
     hotel.append(hotelBox);
   });
+}
+
+var ratingSort = document.querySelector("#change");
+
+ratingSort.addEventListener("change", sortfunction);
+
+function sortfunction() {
+  var x = ratingSort.value;
+  if (x == "None") {
+    display(dataGoa);
+    window.location.reload();
+  } else if (x == "rating") {
+    dataGoa.sort(function (a, b) {
+      return b.rating - a.rating;
+    });
+    display(dataGoa);
+  }
+
+  if (x == "price") {
+    dataGoa.sort(function (a, b) {
+      return a.price - b.price;
+    });
+    display(dataGoa);
+  }
+  if (x == "price1") {
+    dataGoa.sort(function (a, b) {
+      return b.price - a.price;
+    });
+    display(dataGoa);
+  }
 }
