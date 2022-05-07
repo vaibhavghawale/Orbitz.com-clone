@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
     <link type="image/x-icon" href="/favicon.ico" sizes="16x16 32x32" rel="icon"/> 
-    <link rel="stylesheet" href="signin.css" type="text/css">
+    <link rel="stylesheet" href="./css/signin.css" type="text/css">
+    
     
 
 </head>
@@ -17,8 +18,11 @@
     <div id="sign_in">
         <form id="sign_in_form">
             <h1>Sign in</h1>
+       
             <input id="signinemail" type="email" placeholder="Email address">
+         
             <input id="signuppassword" type="password" placeholder="Password">
+            
             <div id="sign_in_check_box">
                 <input type="checkbox">
                 <p>Keep me signed in</p>
@@ -36,37 +40,7 @@
             </div>
         </div>
     </div>
-    
+    <script src="./js/signin.js">
+    </script>
 </body>
 </html>
-
-<script>
-    var form = document.querySelector("form");
-    var userData = JSON.parse(localStorage.getItem("userData"));
-    if(JSON.parse(localStorage.getItem("signin")) != null)
-    {
-        window.location.href="signin.html";
-    }
-
-    form.addEventListener("submit", function(){
-        event.preventDefault();
-
-        var data = {
-            signinemail: form.signinemail.value,
-            signuppassword: form.signuppassword.value
-        }
-
-        if(userData == null)
-            alert("Please Enter email and password");
-        else if(data.useremail == userData.signinemail && data.userpassword== userData.signuppassword)
-        {
-            localStorage.setItem("signin",JSON.stringify(data));
-            alert("signin succesfull");
-            window.location.href="navbar.html";
-        }
-        else{
-            alert("incorrect username or passwork");
-        }
-
-    })
-</script>

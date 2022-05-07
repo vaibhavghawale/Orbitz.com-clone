@@ -28,6 +28,10 @@
   padding: 15px;
   margin-top: 10px;
 }
+#sign_in_form>input:focus{
+    border: 10px rgb(30, 172, 165) ;
+    /* border-color: */
+}
 #sign_in_check_box{
     display: flex;
     margin-top: 20px;
@@ -52,13 +56,17 @@ a{
 .sign_in_button{
     margin-top: 20px;
     padding: 3% 42%;
-    background-color: #C85259;
+    background-color: #cf8287;
     border: 0px;
     font-size: 16px;
     color: #FFFFFF;
 }
 .sign_in_button:active{
     transform: scale(0.98);
+}
+.sign_in_button:hover{
+    background-color: #C85259;
+
 }
 #redirect_signup{
     width: 116px;

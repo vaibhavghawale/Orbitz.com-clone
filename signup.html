@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create an account</title>
     <link type="image/x-icon" href="/favicon.ico" sizes="16x16 32x32" rel="shortcut icon"/><link type="image/x-icon" href="/favicon.ico" sizes="16x16 32x32" rel="icon"/><link rel="apple-touch-icon" href="/favicon.ico"/>
-    <link rel="stylesheet" href="signup.css" type="text/css">    
+    <link rel="stylesheet" href="./css/signup.css" type="text/css">    
 </head>
 <body>
     <div id="sigup_navbar">
@@ -35,30 +35,7 @@
             </div>
         </div>
     </div>
-    
+    <script src="./js/signup.js">
+    </script>
 </body>
 </html>
-
-<script>
-    if(JSON.parse(localStorage.getItem("signin")) != null)
-{
-    window.location.href = "signup.html";
-}
-
-var form = document.querySelector("form");
-
-form.addEventListener("submit", function(){
-    event.preventDefault();
-
-    var data = {
-        useremail: form.useremail.value,
-        username: form.username.value,
-        userlastname:form.userlastname.value,
-        userpassword: form.userpassword.value
-    }
-
-    localStorage.setItem("userData", JSON.stringify(data));
-    alert("Sign Success");
-    window.location.href="signin.html"
-})
-</script>

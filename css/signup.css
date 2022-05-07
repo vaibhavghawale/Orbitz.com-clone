@@ -28,6 +28,10 @@
   padding: 15px;
   margin-top: 10px;
 }
+#sign_up_form>input:focus{
+    border: 10px rgb(30, 172, 165) ;
+    /* border-color: */
+}
 #sign_up_check_box{
     display: flex;
     margin-top: 20px;
@@ -52,7 +56,7 @@ a{
 .sign_up_button{
     margin-top: 20px;
     padding: 3% 42%;
-    background-color: #C85259;
+    background-color: #bc6d72;
     border: 0px;
     font-size: 16px;
     color: #FFFFFF;
@@ -94,5 +98,30 @@ a{
 .signup_checkboc:hover
 {
  cursor: pointer;
- background-color: teal;
+ color: #007E8F;
 }
+#welcome{
+    width: 30%;
+    margin: auto;
+}
+#welcome>p{
+    margin-top: 40px;
+}
+#welcome:nth-child(2),#welcome>p+a
+{
+    margin-top: 30px;
+}
+
+a:hover{
+    font-size: 14px;
+    color: #007E8F;
+    text-decoration: underline;
+}
+
+.updatename{
+    display: flex;
+}
+h1{
+    margin-left: 10px;
+}
+

@@ -1,0 +1,402 @@
+* {
+  font-family: sans-serif;
+  text-shadow: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+#content {
+  /* border: 1px solid pink; */
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+#filter {
+  /* display: flex; */
+  width: 25%;
+  /* border: 1px solid brown; */
+  height: auto;
+  /* margin-top: 15px; */
+}
+
+#hotel {
+  /* border: 1px solid rebeccapurple; */
+  width: 70%;
+  height: auto;
+  padding: 10px;
+}
+#hotel > div {
+  display: flex;
+  gap: 30px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background-color: white;
+}
+img {
+  width: 350px;
+}
+
+#hotel div > h3 + p {
+  margin-top: -18px;
+  color: grey;
+}
+
+#hotel div > h3 + p + p {
+  /* margin-top: -18px; */
+  color: grey;
+  line-height: 1.5;
+  width: 80%;
+  /* padding: 10px 0px; */
+}
+#hotel div > .refund {
+  color: rgb(4, 158, 4);
+  width: 40%;
+  font-size: 20px;
+  margin-top: -5px;
+}
+#hotel div > .refund + div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+
+#hotel div > .refund + div > p:nth-child(1) {
+  /* text-align: end; */
+
+  font-size: 19px;
+  font-weight: bold;
+}
+#hotel div > .refund + div > p + p {
+  padding: 0px 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#recom {
+  text-align: end;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+#change {
+  font-size: 25px;
+  padding: 15px 20px;
+  width: 30%;
+  width: 120%;
+  border-radius: 21px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 0;
+}
+
+#filter > .map > img {
+  height: 150px;
+  width: 100%;
+  /* padding: 15px 15px 0px 15px; */
+  margin: 0;
+}
+#butn,
+button {
+  display: block;
+  margin: auto;
+  font-size: 18px;
+  border: 0;
+  width: auto;
+  margin-top: -2px;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+.map {
+  border: 2px solid teal;
+  width: 100%;
+  cursor: pointer;
+  margin: auto;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  color: teal;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+#searchtag {
+  padding: 10px;
+  width: 80%;
+  border: 0;
+  cursor: pointer;
+}
+
+#searchbar {
+  border-radius: 21px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  background-color: white;
+}
+
+#rohit > h4 {
+  margin-left: 15px;
+}
+
+h4 + form {
+  /* border: 1px solid salmon; */
+  text-align: start;
+  width: 75%;
+  margin-top: -20px;
+}
+
+h4 + form > input {
+  margin-bottom: 10px;
+}
+
+#star {
+  display: flex;
+}
+#star > button:hover {
+  background-color: antiquewhite;
+}
+
+#star > button {
+  border: 1px solid;
+  color: grey;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  margin-left: 15px;
+}
+label {
+  color: grey;
+}
+
+#header {
+  /* text-align: end; */
+  display: flex;
+  /* border: 1px solid; */
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 350px;
+  padding: 0;
+}
+#header > p {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 25px;
+}
+
+/* search box */
+#input-section {
+  margin-top: 25px;
+  display: flex;
+  color: #777575;
+  /* border: 1px solid green; */
+  width: 85%;
+  margin: auto;
+}
+#select-Cont,
+.date,
+#travelers {
+  margin: 7px;
+  height: 48px;
+  text-align: start;
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  cursor: pointer;
+}
+#select-Cont {
+  min-width: 40%;
+}
+.date {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+.date > div,
+#travelers > div {
+  line-height: 3px;
+}
+.date > div > input {
+  border: none;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.date > i,
+#travelers > i {
+  width: 15%;
+  margin-left: 8px;
+}
+.date > div > p,
+#travelers > div > p,
+#counters {
+  font-size: small;
+  letter-spacing: 0.5px;
+}
+#travelers {
+  width: 23%;
+  display: flex;
+  align-items: center;
+  /* padding-right: 25px; */
+  /* cursor: default; */
+}
+#travelers > div > div {
+  display: flex;
+}
+/* #counters {
+  /* margin: 5px; */
+#counters > button {
+  background-color: transparent;
+  border: 0.1px solid rgb(194, 193, 193);
+  margin-right: 8px;
+  cursor: pointer;
+  padding: 1px;
+  /* margin-top: -5px; */
+}
+
+#search {
+  background-color: #c83259;
+  width: 15%;
+  height: 50px;
+  display: block;
+  margin-top: 7px;
+  color: white;
+  border: 0;
+}
+
+#navbar {
+  width: 100%;
+  height: auto;
+  background-color: #00253c;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 20px;
+}
+#navbar_logo {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+#navbar_options {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+#sing_in_button {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+#navbar_select {
+  width: auto;
+  background-color: #00253c;
+  border: 0px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+#moreopt > div:hover,
+#navbar:hover,
+#navbar_logo:hover,
+#navbar_options > div:hover,
+#sing_in_button:hover,
+#navbar_select:hover {
+  cursor: pointer;
+  color: #007e8f;
+}
+a {
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+#moreopt {
+  display: none;
+  margin-top: 30px;
+  margin-left: 250px;
+  width: 375px;
+  background-color: white;
+  position: absolute;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+#moreopt > div {
+  color: #1f1f1f;
+  height: 30px;
+  margin-left: 10px;
+  font-weight: normal;
+  padding-top: 10px;
+  font-size: 14px;
+}
+#sing_in_button {
+  display: none;
+  margin-top: 30px;
+  margin-left: 70px;
+  width: 375px;
+  background-color: white;
+  position: absolute;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 2% 2% 0% 2%;
+}
+#sing_in_button > div {
+  color: #00253c;
+  height: 48px;
+  margin-left: 10px;
+  font-weight: normal;
+}
+.signin_redirect > button {
+  padding: 3% 40% 3% 40%;
+  background-color: #c85259;
+  border: 0px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.signup_redirect > a {
+  color: #007e8f;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.signin_redirect > button:hover {
+  background-color: #d9868b;
+  touch-action: auto;
+}
+.signin_redirect > button:active {
+  transform: scale(0.98);
+}
+p:hover {
+  color: #007e8f;
+  margin-left: 10px;
+}
+.fa-solid {
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
