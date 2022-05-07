@@ -247,7 +247,7 @@
     background-color: rgb(237, 247, 255);
 }
 #bx1>div>img{
-    height: 17px;
+    height: 25px;
     margin-left: 20px;
     padding-top: 11px;
 }
@@ -419,6 +419,9 @@
      color: rgb(255, 255, 255);
      margin-left: 8px;
 }
+#input_btn::placeholder{
+    color: rgb(255, 255, 255);
+}
 #card1pro{
     display: flex;
     margin-left: 20px;
@@ -496,4 +499,48 @@
 #lastparaimg{
     margin-top: 20px;
     margin-left: 570px;
+}
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+.container{
+max-width: 450px;
+margin: 20px auto;
+margin-left: 45px;
+
+}
+.container .search_input{
+position: relative;
+background-color: white;
+width: 100%;
+border-radius: 3px;
+box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+}
+.search_input input{
+height: 55px;
+width: 100%;
+outline: none;
+border: none;
+border-radius: 5px;
+padding: 0 60px 0 20px;
+font-size: 18px;
+}
+.icon{
+height: 25px;
+width: 25px;
+margin-left: 370px;
+margin-top: -36px;
+
+}
+.search_input.icon{
+height: 55px;
+width: 55px;
+line-height: 55px;
+position: absolute;
+top: 0;
+left: 0;
+text-align: center;
 }
