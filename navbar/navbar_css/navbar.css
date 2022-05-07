@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+#navbar{
+    width: 100%;
+    height:auto;
+    background-color: #00253C;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 20px;
+}
+#navbar_logo{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    
+}
+
+#navbar_options{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+#sing_in_button{
+    
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+#navbar_select{
+    width:auto;
+    background-color: #00253C;
+    border: 0px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+#moreopt>div:hover,#navbar:hover,#navbar_logo:hover,#navbar_options>div:hover,#sing_in_button:hover,#navbar_select:hover{
+    cursor: pointer;
+    color:#007E8F;
+}
+a{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#moreopt{
+    display: none;
+    margin-top: 30px;
+    margin-left: 250px;
+    width: 375px;
+    background-color: white;
+    position: absolute;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+#moreopt>div{
+    color: #1F1F1F;
+    height: 30px;
+    margin-left: 10px;
+    font-weight: normal;
+    padding-top: 10px;
+    font-size: 14px;
+
+}
+#sing_in_button{
+    display: none;
+    margin-top: 30px;
+    margin-left:70px ;
+    width: 375px;
+    background-color: white;
+    position: absolute;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 2% 2% 0% 2%;
+}
+#sing_in_button>div{
+    color: #00253C;
+    height: 48px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+.signin_redirect>button{
+    padding: 3% 40% 3% 40%;
+    background-color: #C85259;
+    border: 0px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.signup_redirect>a{
+    color:#007E8F;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;   
+}
+.signin_redirect>button:hover{
+    background-color: #d9868b;
+    touch-action: auto;
+}
+.signin_redirect>button:active{
+    transform: scale(0.98);
+}
+p:hover{
+    color:#007E8F;
+    margin-left:10px;
+}
+.fa-solid{
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+        @media all and (min-width:576px) and (max-width:930px)
+        {#nnavbar_options{
+        }
+
+    }
+        @media all and (min-width:321px) and (max-width:575px)
+        { #navbar_options{
+            
+        }}
+        @media all and (min-width:240px) and (max-width:321px)
+        { #navbar_options{
+            
+        }}
