@@ -32,9 +32,9 @@ a{
 }
 
 /*For div hide*/
-.hide{
+/* #hidden-div{
     display: none;
-}
+} */
 
 
 
@@ -126,6 +126,10 @@ a{
 #sign-in-div > a > i{
     margin-left: 5px;
 }
+/* .sign-in > div{
+    margin: 25px 35px;
+    display: flex;
+} */
 
 /*Personal Details*/
 #name-details{
