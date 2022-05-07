@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Orbitz Homepage</title>
     <link rel="stylesheet" href="./homepage.css">
-    
+    <link rel="stylesheet" media="all" href="./media.css">
+    <link rel="stylesheet" href="./footer.css">
     <!-- icons -->
     <link
       rel="stylesheet"
@@ -70,21 +71,20 @@
                             <option value="China">China</option>
                             <option value="Newzeland">Newzeland</option>
                         </select>
-                        <div  class="date" id="d1">
+                        <div class="date" id="d1">
                             <i class="fa-regular fa-calendar"></i>
                             <div>
                                 <p>Check-in</p>
-                                <input type="date">
+                                <input id="cd1" type="date">
                             </div>
                         </div>
                         <div class="date" id="d2">
                             <i class="fa-regular fa-calendar"></i>
                             <div>
                                 <p>Check-out</p>
-                                <input type="date">
+                                <input id="cd2" type="date">
                             </div>
                         </div>
-    
                         <div id="travelers">
                             <i class="fa-solid fa-user-large"></i>
                             <div>
@@ -110,7 +110,7 @@
                         <input id="car-check" type="checkbox"> <label for="car-check">Add a Car</label>
                     </div>
                     <div id="search-btn">
-                        <input type="button" value="Search" onClick="window.location.href= '';">
+                        <input type="button" value="Search">
                     </div>
                 </form>
             </div>
@@ -188,7 +188,7 @@
             <img src="https://forever.travel-assets.com/flex/flexmanager/images/2020/12/03/ORB_Storefront_Deals_2740x1484-V1.jpg" alt="dl1">
             <div class="deal-text-wrapp">
                 <h3>Today's top deals</h3>
-                <p>Vacations are even more rewarding with our best offers</p>
+                <p>Vacations are even more rewarding with our best offers</p> 
             </div>
         </div>
         <div>
@@ -318,70 +318,29 @@
     <div id="row8-dest-box">
         <h1>More Destination</h1>
         <div id="section-check">
-            <div class="wrapper">
-                <div class="select-btn">
-                    <span>Destination deals</span>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div class="content">
-                    <ul class="options">
-                    </ul>
-                </div>
+            <div class="select-btn">
+                <span>Destination deals</span>
+                <i class="fa-solid fa-angle-down"></i>
             </div>
-    
-            <div class="wrapper">
-                <div class="select-btn">
-                    <span>Top hotel beach Destinations</span>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div class="content">
-                    <ul class="options">
-                    </ul>
-                </div>
+            <div class="select-btn">
+                <span>Top hotel beach Destinations</span>
+                <i class="fa-solid fa-angle-down"></i>
             </div>
-    
-            <div class="wrapper">
-                <div class="select-btn">
-                    <span>Top hotel city Destinations</span>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div class="content">
-                    <ul class="options">
-                    </ul>
-                </div>
+            <div class="select-btn">
+                <span>Top hotel city Destinations</span>
+                <i class="fa-solid fa-angle-down"></i>
             </div>
-    
-            <div class="wrapper">
-                <div class="select-btn">
-                    <span>Top Vacation Destinations</span>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div class="content">
-                    <ul class="options">
-                    </ul>
-                </div>
+            <div class="select-btn">
+                <span>Top Vacation Destinations</span>
+                <i class="fa-solid fa-angle-down"></i>
             </div>
-    
-            <div class="wrapper">
-                <div class="select-btn">
-                    <span>Top flight Destinations</span>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div class="content">
-                    <ul class="options">
-                    </ul>
-                </div>
+            <div class="select-btn">
+                <span>Top flight Destinations</span>
+                <i class="fa-solid fa-angle-down"></i>
             </div>
-    
-            <div class="wrapper">
-                <div class="select-btn">
-                    <span>Top car rental Destinations in America</span>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div class="content">
-                    <ul class="options">
-                    </ul>
-                </div>
+            <div class="select-btn">
+                <span>Top car rental Destinations in America</span>
+                <i class="fa-solid fa-angle-down"></i>
             </div>
         </div>
     </div>
@@ -394,60 +353,47 @@
         </div>
         <div>
             <h4>Comapany</h4>
-            <a href="">About</a>
-            <a href="">Jobs</a>
-            <a href="">List your Property</a>
-            <a href="">Partenerships</a>
-            <a href="">Newsroom</a>
-            <a href="">Invester Relation</a>
-            <a href="">Site Map</a>
-            <a href="">Orbitz Reward</a>
-            <a href="">Advertising</a>
-           
+            <p>About</p>
+            <p>Jobs</p>
+            <p>List your Property</p>
+            <p>Partenerships</p>
+            <p>Newsroom</p>
+            <p>Invester Relation</p>
+            <p>Site Map</p>
+            <p>Orbitz Reward</p>
+            <p>Advertising</p>
         </div>
         <div>
             <h4>Explore</h4>
-            <a href="">Hotels in United States</a>
-            <a href="">Vacation Rental in United Sates</a>
-            <a href="">Car Rentals in United States</a>
-            <a href="">Domestic Flights</a>
-            <a href="">Vacation Package in United States</a>
-            <a href="">Orbitz Reward</a>
-            <a href="">Orbitz Coupans</a>
-            <a href="">LGBTQ Travel</a>
-            <a href="">Unique Accommodations</a>
-            <a href="">Travel Blog</a>
-            
+            <p>Hotels in United States</p>
+            <p>Vacation Rental in United Sates</p>
+            <p>Car Rentals in United States</p>
+            <p>Domestic Flights</p>
+            <p>Vacation Package in United States</p>
+            <p>Orbitz Reward</p>
+            <p>Orbitz Coupans</p>
+            <p>LGBTQ Travel</p>
+            <p>Unique Accommodations</p>
+            <p>Travel Blog</p>
         </div>
         <div>
             <h4>Policies</h4>
-            <a href="">Privacy Policy</a>
-            <a href="">Terms of Us href=""e</a>
-            <a href="">Vrbo term and conditions</a>
-            <a href="">Orbitz Rewards Terms</a>
-            <a href="">Do not sell my personal information</a>
+            <p>Privacy Policy</p>
+            <p>Terms of Us</p>
+            <p>Vrbo term and conditions</p>
+            <p>Orbitz Rewards Terms</p>
+            <p>Do not sell my personal information</p>
         </div>
         <div>
             <h4>Help</h4>
-            <a href="">Support</a>
-            <a href="">Cancel your hotel or vacation renatl booking</a>
-            <a href="">cancel your flight</a>
-            <a href="">refund timelines,policies</a>
-            <a href="">use an Orbitz Coupan</a>
+            <p>Support</p>
+            <p>Cancel your hotel or vacation renatl booking</p>
+            <p>cancel your flight</p>
+            <p>Refund timelines,policies</p>
+            <p>Use an Orbitz Coupan</p>
         </div>
     </div>
 </body>
 </html>
 
 <script src="./homepage.js"></script>
-
-
-
-
-
-
-
-
-
-
-

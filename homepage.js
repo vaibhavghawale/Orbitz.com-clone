@@ -10,68 +10,46 @@ var room=0;
 function roomCountFunc(){
     event.preventDefault();
     room++;
-    console.log(room);
     document.querySelector("#c1").innerText=room;
 }
-
 var travelar=0;
 function travelarCountFunc(){
     event.preventDefault();
     travelar++;
-    console.log(travelar);
     document.querySelector("#c2").innerText=travelar;
 }
-
 function resetFunc(){
     document.querySelector("#c1").innerText="";
     document.querySelector("#c2").innerText="";
     window.location.reload();  
 }
 
-
 // search button functionality
 
 document.querySelector("#search-btn>input").addEventListener("click", searchTravelingFunc);
 
 function searchTravelingFunc(){
-    event.preventDefault();
+    var cityLocation=document.querySelector("#select-Cont").value;
+    var inpdate1=document.querySelector("#cd1").value;
+    var inpdate2=document.querySelector("#cd2").value;
+    var roomCount=document.querySelector("#c1").innerText;
+    var travelCount=document.querySelector("#c2").innerText;
+    console.log(cityLocation,inpdate1,inpdate2, roomCount, travelCount);
 
-    var inpData={
-        goingTo:document.querySelector("#select-Cont").value,
-        checkIn: document.querySelector("#d1").value,
-        checkOut:document.querySelector("#d2").value,
-        roomC1:document.querySelector("#c1").value,
-        travelarC2:document.querySelector("#c2").value,
+    var inpDataObj={
+        location:cityLocation,
+        dateD1:inpdate2,
+        dateD2:inpdate2,
+        roomCD:roomCount,
+        travCD:travelCount,
     }
-    console.log(inpData);
+    localStorage.setItem("searchData",JSON.stringify(inpDataObj));
+
+    if (cityLocation==""){
+        alert ("please insert data");
+    }
+    else {
+        window.location.href="";
+    }
 }
-
-
-
-
-// Destination-dropdown function
-
-const wrapper =document.querySelector(".wrapper");
-selectBtn =wrapper.querySelector(".select-btn");
-options =wrapper.querySelector(".options");
-
-var infoList =["Flights Under $200","Orbitz Coupons","Travel Deals" , "Car Rental Deals", "Hotels Under $100", "Vacation Package Deals", "Last Minute Travel Deals","All our Destinations"];
-
-addListArrFunc1(infoList);
-
-function addListArrFunc1(listArr){
-    listArr.forEach(function(element){
-        var li= document.createElement("li");
-        li.innerText=element;
-
-        document.querySelector(".options").append(li);
-    });
-
-};
-
-selectBtn.addEventListener("click", ()=>{
-    wrapper.classList.toggle("active");
-});
-
-
 

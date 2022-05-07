@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
 }
 
-/*flight searching container */
+/* row1-flight searching container */
 
 *{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -171,7 +171,7 @@ form{
     width: 90%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(1, 150px);
+    grid-template-rows: repeat(1, auto);
     gap: 35px;
     margin: auto;
 }
@@ -184,7 +184,7 @@ form{
 
 
 /* ======== */
-/* row33 fetured offer*/
+/* row3 fetured offer*/
 
 #row3-offers{
     margin-bottom: 3%;
@@ -201,22 +201,30 @@ form{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(1,auto);
-    gap: 35px;
+    gap: 30px;
     margin: auto;
 }
-#offer-card>div>img{
+#offer-card>.img-wrapp>img{
     width: 100%;
+    object-fit: contain;
 }
 #offer-card>div{
     cursor: pointer;
+    position: relative;
 }
 .text-wrapp{
-    width: 100%;
-    position: relative;
-    margin-top: -32%;
-    margin-left: 3%;
+    z-index: 100;
+    bottom: 0;
+    left: 8px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    outline: none;
     color: white;
-    outline: #FFFFFF;
+    white-space: nowrap;
+    width: 100%;
 }
 .text-wrapp>p{
     margin-top: -15px;
@@ -237,7 +245,6 @@ form{
 }
 #row4-deals>div{
     cursor: pointer;
-   
 }
 #row4-deals>div>img{
     width: 100%;
@@ -318,6 +325,7 @@ form{
 }
 #tips-card>div:nth-child(1){
     background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg");
+    /* object-fit: cover; */
 }
 #tips-card>div:last-child{
     background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_1199x399_20211117.jpg");
@@ -383,11 +391,14 @@ form{
 #row6-app-scanner{
     width: 90%;
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 35% 64%;
     grid-template-rows: repeat(1, 350px);
     margin: auto;
     margin-bottom: 3%;
     border: 1px solid #b9b5b5;
+}
+#row6-app-scanner>div{
+    width: 90%;
 }
 #row6-app-scanner>div>img{
     width: 100%;
@@ -478,127 +489,29 @@ form{
 }
 #section-check{
     width: 90%;
-    height: 100px;
-    margin: auto;
-    color: #1F1F1F;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 48px);
+    grid-template-rows: repeat(2,48px);
     gap: 10px;
+    margin: auto;
+    color: #1F1F1F;
 }
 
 .select-btn>span{
     font-size: 18px;
     font-weight: 700;
 }
-
-.select-btn, .options>li{
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-}
-
 .select-btn{
     height: 48px;
     background: #ffff;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
     padding: 0 20px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
     justify-content: space-between;
 }
 .select-btn>i{
     font-size: 12px;
-    transition: transform 0.3s linear;
-}
-.content{
-    display: none;
-    margin-top: 6px;
-    background: #ffff;
-    color: #007E8F;
-}
-.wrapper.active .select-btn>i{
-    transform: rotate(-180deg);
-}
-.wrapper.active .content{
-    display: block;
-}
-.options{
-    margin-top: 8px;
-    max-height: 150px;
-    overflow-y: visible;
-}
-.options::-webkit-scrollbar{
-    width: 7px;
-}
-.options::-webkit-scrollbar-track{
-    background: #f1f1f1;
-    border-radius: 25px;
-}
-.options::-webkit-scrollbar-thumb{
-    background: #ccc;
-    border-radius: 25px;
-}
-.options>li{
-    height: 45px;
-    padding: 0 10px;
-    font-size: 15px;
-    border-radius: 5px;
-}
-.options>li:hover{
-    color: #007E8F;
-    text-decoration: underline;
-}
-
-
-/* last row footer */
-
-#footer{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap:20px;
-    width:90%;
-    margin: auto;
-    border-bottom: 0.1px solid #c0bcbc;
-    padding-bottom: 2%;
-    margin-bottom: 4%;
-
-}
-#footer>div>h4{
-    font-weight: bold;
-}
-#footer>div>a{
-    color:rgb(47,154,179);
-    font-size: 13px;
-    font-family: sans-serif;
-    text-decoration: none;
-    display: block;
-    line-height: 35px;
-}
-#footer>div>a:hover{
-    cursor: pointer;
-    text-decoration: underline;
-}
-#footer>div:nth-child(1)>img{
-    margin-top: 22px;
-}
-#footer>div:nth-child(1)>img:hover{
-    cursor: pointer;
-}
-
-@media all and (min-width:600px) and (max-width:900px){
-    #footer{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap:20px;
-        width:95%;
-        margin:auto;
-    }
-}
-@media all and (min-width:300px) and (max-width:600px){
-    #footer{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap:20px;
-        width:95%;
-        margin:auto;
-    }
 }
