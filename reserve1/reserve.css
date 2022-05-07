@@ -1,3 +1,65 @@
+
+#navbar{
+    width: 97%;
+    height:auto;
+    background-color: #00253C;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 20px;
+}
+#navbar_logo{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    
+}
+#navbar_options{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+#sing_in_button{
+    
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+#navbar_select{
+    width:auto;
+    background-color: #00253C;
+    border: 0px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+#navbar:hover,#navbar_logo:hover,#navbar_options>div:hover,#sing_in_button:hover,#navbar_select:hover{
+    cursor: pointer;
+    color: turquoise;
+}
+a{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
 *{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
@@ -70,7 +132,7 @@
      width:1010px;
      background-color: #FFFFFF;
      margin-left: 70px;
-     
+     margin-top: 10px;
      padding-left: 10px;
      
  }
@@ -305,6 +367,8 @@
       margin-top: -25px;
   }
   
+
+ 
  
     
     
