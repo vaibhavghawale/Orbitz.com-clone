@@ -222,16 +222,23 @@ form{
     display: block;
     overflow: hidden;
     position: absolute;
-    top: 100px;
+    top: 70px;
     right: 0;
-    outline: none;
-    color: white;
+    color: #FFFFFF;
+    opacity: 1;
+    outline: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
     white-space: nowrap;
     width: 100%;
 }
-/* .text-wrapp>p{
-    margin-top: -3px;
-} */
+.text-wrapp>.line-up{
+    line-height: 3px;
+    font-size: 14px;
+    outline: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
+}
 /* ==========*/
 /* row4 top deals*/
 #row4-deals{
@@ -245,6 +252,7 @@ form{
 }
 #row4-deals>div{
     cursor: pointer;
+    position: relative; 
 }
 #row4-deals>div>img{
     width: 100%;
@@ -252,19 +260,25 @@ form{
     object-fit:cover;
 }
 .deal-text-wrapp{
+    z-index: 100;
+    bottom: 0;
+    left: 8px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    white-space: nowrap;
     width: 100%;
-    position: relative;
-    margin-top: -10%;
-    margin-left: 3%;
     color: #FFFFFF;
     opacity: 1;
     outline: #FFFFFF;
     -webkit-font-smoothing: antialiased;
     text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
 }
-/* .deal-text-wrapp>p{
-    margin-top: -5px;
-} */
+.deal-text-wrapp>.line-up{
+    line-height: 5px;
+}
 .deal-text-wrapp>h3, .deal-text-wrapp>p{
     outline-color: white;
     font-weight: 900;
