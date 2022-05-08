@@ -105,22 +105,30 @@ form{
 #travelers>div>div, #counters>div{
     display: flex;
 }
+#counters>div{
+    margin-top: 4px;
+}
 #counters{
     margin: 5px;
 }
 #counters>div>button{
-    background-color: transparent;
-    border: 0.1px solid rgb(194, 193, 193);
+    background-color: rgb(206, 231, 245);
     margin-right: 8px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 11px;
     margin-top: -2px;
     text-align: center;
+    border: none;
+    border-radius:6px;
+    padding-bottom: -2px;
+    height: 18px;
 }
 
 #counters>div>#c1, #counters>div>#c2{
     margin-right: 4px;
     vertical-align: middle;
+    color:red;
+    font-weight: 600;
 }
 
 
@@ -221,9 +229,9 @@ form{
     white-space: nowrap;
     width: 100%;
 }
-.text-wrapp>p{
-    margin-top: -18px;
-}
+/* .text-wrapp>p{
+    margin-top: -3px;
+} */
 /* ==========*/
 /* row4 top deals*/
 #row4-deals{
@@ -254,9 +262,9 @@ form{
     -webkit-font-smoothing: antialiased;
     text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
 }
-.deal-text-wrapp>p{
-    margin-top: -18px;
-}
+/* .deal-text-wrapp>p{
+    margin-top: -5px;
+} */
 .deal-text-wrapp>h3, .deal-text-wrapp>p{
     outline-color: white;
     font-weight: 900;
@@ -292,9 +300,10 @@ form{
     padding: 5px;
 }
 #help-cart>div>p{
-    margin-top: -15px;
+    /* margin-top: -3px; */
     font-size: small;
     margin-left: 5px;
+    margin-bottom: 8px;
 }
 #help-cart>div>div>i{
     margin-top: 20px;
@@ -329,7 +338,7 @@ form{
 }
 .tips-info{
     text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
-    line-height: 15px;
+    line-height: 30px;
     position: absolute;
     top: 40%;
     transform: translateY(-50%);

@@ -1,6 +1,8 @@
 * {
   font-family: sans-serif;
   text-shadow: 0;
+
+  box-sizing: border-box;
 }
 
 body {
@@ -76,6 +78,8 @@ img {
   padding: 0px 10px;
   font-size: 25px;
   font-weight: bold;
+  margin: 25px;
+  padding: 25px;
 }
 
 #recom {
@@ -111,6 +115,7 @@ button {
   padding: 10px;
   background-color: white;
   cursor: pointer;
+  color: teal;
 }
 .map {
   border: 2px solid teal;
@@ -390,10 +395,10 @@ a {
 .signin_redirect > button:active {
   transform: scale(0.98);
 }
-p:hover {
+/* p:hover {
   color: #007e8f;
   margin-left: 10px;
-}
+} */
 .fa-solid {
   margin-right: 15px;
   width: 20px;
