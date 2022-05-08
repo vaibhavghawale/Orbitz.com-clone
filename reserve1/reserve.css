@@ -1,0 +1,380 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+#rooms{
+    height:300px;
+    width:auto;
+    
+    display: flex;
+}
+#room1>img{
+    height:300px;
+    width:500px;
+}
+#separate{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 150px 150px;
+}
+#room2>img{
+    height:150px;
+    width:250px;
+    margin-left: -45px;
+}
+#room1{
+    height:300px;
+    width:550px;
+    
+}
+
+#room3>img{
+    height:150px;
+    width:250px;
+    margin-left: 7px;
+}
+#room4>img{
+    height:150px;
+    width:250px;
+    margin-left: -45px;
+}
+#room5>img{
+    height:150px;
+    width:250px;
+    margin-left: 7px;
+}
+
+.star{
+    color: #757575;
+    font-size: 1.5rem;
+   }
+  .star:before{
+    content: '\2606';    /* star outline */
+   }
+   #in{
+       height: auto;
+       width:700px ;
+       
+   }
+.stars{
+       
+      color: #757575;
+      margin-top: -25px;
+  }
+  #total{
+      /* background-color: #E0E0E0; */
+      height: auto;
+      width: auto;
+  }
+ #one{
+     /* height:100%; */
+     width:65%;
+     background-color: #FFFFFF;
+     margin: auto;
+     /* margin-left: 70px; */
+     
+     /* padding-left: 10px; */
+     
+ }
+ #rat,h2{
+     color: black;
+    
+ }
+ #r{
+     text-decoration: none;
+     color: blue;
+     text-align: left;
+ }
+ h2>p{
+     content: "\f5c4";
+ }
+ #pool{
+     display: flex;
+     
+ }
+ p{
+     font-size: 15px;
+     margin-top: -10px;
+ }
+
+ #spa{
+     display: flex;
+     height:35px;
+     width:350px;
+     
+ }
+ #pool{
+   
+    height:35px;
+    width:300px;
+    
+ }
+ .icons{
+     display: flex;
+     margin-bottom: 10px;
+ }
+ .par{
+     margin-top: 20px;
+     margin-left: 10px;
+ }
+ #nav{
+    margin-left: -20px;
+     height:50px;
+     width:auto;
+    
+     
+ }
+ ul>a{
+    text-decoration: none;
+    padding-right: 25px;
+    color:black
+ }
+ hr{
+     margin-top: -5px;
+     margin-left: 20px;
+ }
+ #but{
+     background-color: rgb(238, 15, 127);
+     color: white;
+     height: 40px;
+     width:150px;
+     font-size: 18px;
+     margin-left:300px;
+     border: 0px;
+ }
+
+ #rightbox{
+     height: 600px;
+     width:300px;
+     margin-left: 670px;
+    
+     margin-top: -620px
+ }
+ #rightbox>img{
+     width: auto;
+     height:200px;
+     padding-top: 30px;
+    }
+    #rightbox>p{
+        margin-top: 10px;
+        color: #757575;
+    }
+    #rightbox>a{
+        text-decoration: none;
+       
+    }
+
+    #two{
+        /* height:120px; */
+     width:65%;
+     background-color: #FFFFFF;
+     margin: 20px auto;
+    }
+    #lock{
+        display: flex;
+    }
+    #symbol{
+        margin-left: 10px;
+    }#mat>p+a{
+        margin-right: 25px;
+    }
+
+    #secondpage{
+        /* background-color:#E0E0E0 ; */
+        height:1000px;
+        width:1010px;
+        margin-top: 20px;
+        margin-left: 70px;
+        
+        display: flex;
+    }
+    
+    #c{
+         height: 62px;
+         width: 200px;
+         background-color: white;
+         margin-right: 20px;
+        padding-left: 10px;
+         
+    }
+   .date{
+       height:52px;
+       width:210px;
+       border:1px solid grey;
+       padding-top: 10px;
+       margin-right: 20px;
+   }
+   #traveler{
+    height:52px;
+    width:300px;
+    border:1px solid grey;
+    padding-top: 10px;
+    margin-right: 20px;
+    background-color: white;
+    padding-left: 10px;
+   }
+  #butt{
+      height:60px;
+      width:200px;
+       display: flex;
+      justify-content: center;
+      justify-items: center;
+     text-decoration: none;
+  }
+  #butt>button{
+      background-color: #CC0066;
+      color:white;
+      border:none;
+      width:200px;
+      cursor: pointer;
+      font-size: 15px;
+  }
+
+ #three{
+    /* height:920px; */
+    width:65%;
+    margin: 0 auto;
+    margin-top: -900px;
+    /* margin-left: 70px; */
+    display: flex;
+    
+ }
+
+ .pay{
+     height: 920px;;
+     width: 320px;
+     border:1px solid grey;
+     margin-right:10px;
+     background-color: white;
+     padding-left: 10px;
+ }
+ .pay>img{
+     height:213px;
+     width: 330px;
+     margin-left: -10px;
+ }
+ .b{
+     display: flex;
+ }
+ #fit{
+     margin-top: 10px;
+     margin-left: 5px;
+ }
+ #green{
+    margin-left: -20px;
+ }
+ #R1{
+     margin-left: 270px;
+     margin-top: -20px;
+ }
+ #dow > h2{
+     margin-top: -30px;
+ }
+ #down{
+     height:120px;
+     width:auto;
+     margin-top:60px;
+ }
+#butto>button{
+    background-color: #CC0066;
+    color:white;
+    border:none;
+   width: 90px;
+   height:40px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left:225px
+}
+#butto{
+    margin-top:-75px;
+    margin-left: -30px;
+    
+}
+#dow{
+    height:120px;
+    width:auto;
+    margin-top:95px;
+}
+  #four{
+    height:852px;
+    width:1010px;
+    margin-top: 30px;
+    margin-left: 70px;
+    display: flex;
+    
+  }
+  #foure{
+      height: 835px;
+  }
+  #fiv{
+      margin-top: -25px;
+  }
+  
+
+ 
+ 
+    
+    
+    
+
+ 
+  /* check availability*/
+
+
+.date{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+.date>div, #travelers>div{
+    line-height: 3px;
+}
+.date>div>input{
+    border: none;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.date>i, #travelers>i{
+    width: 15%;
+    margin-left: 8px;
+}
+.date>div>p, #travelers>div>p, #counters{
+    font-size:small;
+    letter-spacing: 0.5px;
+}
+#travelers{
+    width: 23%;
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+    cursor: default;
+    z-index: 10;
+    margin-top: -925px;
+    margin-right: 35px;
+    color: red;
+}
+#travelers>div>div, #counters>div{
+    display: flex;
+}
+#counters{
+    margin: 5px;
+}
+#counters>div>button{
+    /* background-color: transparent; */
+    border: 0.1px solid rgb(194, 193, 193);
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: -2px;
+    text-align: center;
+}
+
+#counters>div>#c1, #counters>div>#c2{
+    margin-right: 4px;
+    vertical-align: middle;
+}
+#search-box-checkavailability{
+    width: 65%;
+    margin: auto;
+}
