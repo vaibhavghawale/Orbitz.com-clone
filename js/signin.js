@@ -3,7 +3,7 @@
     var userData = JSON.parse(localStorage.getItem("userData"));
     if(JSON.parse(localStorage.getItem("signin")) != null)
     {
-        window.location.href="./signin.html";
+        // window.location.href="./signin.html";
     }
 
     form.addEventListener("submit", function(){
