@@ -139,7 +139,7 @@
      height: 40px;
      width:150px;
      font-size: 18px;
-     margin-left:300px;
+     margin-left:70%;
      border: 0px;
  }
 
@@ -184,7 +184,7 @@
         height:1000px;
         width:1010px;
         margin-top: 20px;
-        margin-left: 70px;
+        
         
         display: flex;
     }
@@ -203,15 +203,27 @@
        border:1px solid grey;
        padding-top: 10px;
        margin-right: 20px;
+       
    }
-   #traveler{
-    height:52px;
-    width:300px;
-    border:1px solid grey;
-    padding-top: 10px;
-    margin-right: 20px;
-    background-color: white;
-    padding-left: 10px;
+   #co{
+       height: 53px;
+       width: 250px;
+       border:1px solid red;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color:white;
+       background-color: rgb(236, 31, 130);
+       font-size:20px;
+       padding-top: 20px;
+   }
+   #t{
+       display: flex;
+       padding-left: 35px;
+       margin-top: -10px;
+   }
+   #ve{
+       margin-top: 10px;
    }
   #butt{
       height:60px;
@@ -220,6 +232,7 @@
       justify-content: center;
       justify-items: center;
      text-decoration: none;
+    
   }
   #butt>button{
       background-color: #CC0066;
@@ -228,6 +241,7 @@
       width:200px;
       cursor: pointer;
       font-size: 15px;
+      
   }
 
  #three{
@@ -242,7 +256,7 @@
 
  .pay{
      height: 920px;;
-     width: 320px;
+     width: 40%;
      border:1px solid grey;
      margin-right:10px;
      background-color: white;
@@ -275,6 +289,7 @@
      width:auto;
      margin-top:60px;
  }
+ 
 #butto>button{
     background-color: #CC0066;
     color:white;
@@ -334,47 +349,38 @@
     border: none;
     margin-top: -10px;
     cursor: pointer;
+    
 }
-.date>i, #travelers>i{
-    width: 15%;
-    margin-left: 8px;
-}
-.date>div>p, #travelers>div>p, #counters{
-    font-size:small;
-    letter-spacing: 0.5px;
-}
+
+
 #travelers{
     width: 23%;
     display: flex;
     align-items: center;
-    padding-right: 25px;
+   
     cursor: default;
     z-index: 10;
     margin-top: -925px;
-    margin-right: 35px;
-    color: red;
+    
+    
 }
-#travelers>div>div, #counters>div{
-    display: flex;
-}
-#counters{
-    margin: 5px;
-}
-#counters>div>button{
-    /* background-color: transparent; */
-    border: 0.1px solid rgb(194, 193, 193);
-    margin-right: 8px;
-    cursor: pointer;
-    font-size: 12px;
-    margin-top: -2px;
-    text-align: center;
+#trave{
+    height:53px;
+    width: 30%;
+    border:1px solid gray;
+    margin-right:20px;
 }
 
-#counters>div>#c1, #counters>div>#c2{
-    margin-right: 4px;
-    vertical-align: middle;
-}
+
+
+
+
 #search-box-checkavailability{
     width: 65%;
     margin: auto;
+}
+#ma{
+    margin-top:-20px;
+    margin-left: 10%;
+    
 }
