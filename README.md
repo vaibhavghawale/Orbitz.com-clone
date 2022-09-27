@@ -1,7 +1,5 @@
 
 <h1 align="center"> Hi,<img style="width: 35px;" src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" alt=""> Everyone <a href="https://reliable-llama-c038f5.netlify.app/" target="_blank"> Welcome </a></h1>
-
-<h1 align="center">Team-App-Monsters</h1>
 <h3 align="center" >-----  Created A clone of  -----</h3>
 <h1 align="center"><a href="https://reliable-llama-c038f5.netlify.app/" target="_blank"> Orbitz.com</a></h1>
 
