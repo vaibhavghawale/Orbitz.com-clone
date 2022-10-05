@@ -45,15 +45,15 @@ and also help to choose best vacation plan to us. build with the six team member
 <p>Creating a navbar in with all page linked. And make a sign in sing up functionalities. Need to attension about a creating a navabe should all pages are linked with each other.</p>
  <div style="display: grid; grid-template-columns: repeat(2,1fr); gap:20px" >
 
-  <img style="width: 500px;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/2.png" alt="">
-  <img style="width: 500px;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/3.png" alt="">
+  <img style="width: 100%;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/2.png" alt="">
+  <img style="width: 100%;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/3.png" alt="">
  </div>
 
 <h4>Dhannanjay Kandalkar </h4>
 <p> Creating a Landing page where user can overview of webpage and also user can search a hotel by city and fill some more information for filtering booking date , persons etc. using search bar and also redirect to there citivise perticulor page </p>
  <div style="display: grid; grid-template-columns: repeat(2,1fr); gap:20px " >
-  <img style="width: 500px;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/4.png" alt="">
-  <img style="width: 500px;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/5.png" alt="">
+  <img style="width: 100%;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/4.png" alt="">
+  <img style="width: 100%;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/5.png" alt="">
 
  </div>
 
@@ -61,30 +61,30 @@ and also help to choose best vacation plan to us. build with the six team member
 <h4>Rohit Yadav </h4>
 <p> Creating a hotel/ travels/ package finding page which help to guide a which hotel is best for us in that percular city. And user can sort hotel by using sorting function which sort by fare accending and deccending order </p>
  <div style="display: grid; grid-template-columns: repeat(2,1fr); gap:20px " >
-  <img style="width: 500px;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/7.png" alt="">
-  <img style="width: 500px;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/8.png" alt="">
+  <img style="width: 100%;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/7.png" alt="">
+  <img style="width: 100%;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/8.png" alt="">
 
  </div>
 
 <h4>Koteswararao</h4>
 <p> Creating a Hotel Booking page where user find more information about hotel and fare. If he want to book that perticuor hotel he can shift to payment page </p>
  <div style="display: grid; grid-template-columns: repeat(2,1fr); gap:20px " >
-  <img style="width: 500px;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/10.png" alt="">
-  <img style="width: 500px;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/11.png" alt="">
+  <img style="width: 100%;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/10.png" alt="">
+  <img style="width: 100%;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/11.png" alt="">
 
  </div>
 <h4>Govind Singh</h4>
 <p> Creating a payment page where user can move to final booking stage and connect booking page to all payment getway for more effient way user can easily booked that. </p>
  <div style="display: grid; grid-template-columns: repeat(2,1fr);gap:20px " >
-  <img style="width: 500px;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/13.png" alt="">
-  <img style="width: 500px;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/14.png" alt="">
+  <img style="width: 100%;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/13.png" alt="">
+  <img style="width: 100%;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/14.png" alt="">
 
  </div>
 <h4>Rajesh Pradhan </h4>
 <p> Creating a support page which help to guide a website and also if customer have some proble regarding to booking so he can connect with us support team.</p>
  <div style="display: grid; grid-template-columns: repeat(2,1fr);gap:20px " >
-  <img style="width: 500px;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/16.png" alt="">
-  <img style="width: 500px;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/17.png" alt="">
+  <img style="width: 100%;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/16.png" alt="">
+  <img style="width: 100%;" src="https://github.com/thecodervaibhav/Orbitz.com-clone/blob/main/src/17.png" alt="">
 
  </div>
 
