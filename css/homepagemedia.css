@@ -26,7 +26,11 @@
         width: 90%;
     }
     #travelers{
+<<<<<<< HEAD
         width: 85%;
+=======
+        width: 90%;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
     }
     #travel-category{
         max-width: 96%;
@@ -80,6 +84,12 @@
     #row8-dest-box>h1{
         font-size: 16px;
     }
+<<<<<<< HEAD
+=======
+    #app-info>ul>li{
+        margin-left: 14px;
+    }
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 
 }
 
@@ -111,7 +121,11 @@
         width: 90%;
     }
     #travelers{
+<<<<<<< HEAD
         width: 83%;
+=======
+        width: 90%;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
     }
     #travel-category{
         max-width: 95%;
@@ -128,8 +142,13 @@
     }
     #search-btn>input{
         width: 17%;
+<<<<<<< HEAD
         font-size: 12px;
         min-height: 35px;
+=======
+        font-size: 10px;
+        min-height: 30px;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
     }
     #row3-offers>h2{
         font-size: 14px;
@@ -138,20 +157,49 @@
         width: 90%;
         grid-template-columns: repeat(1,1fr);
         grid-template-rows:repeat(2,auto);
+<<<<<<< HEAD
         gap: 35px;
         margin-top:30px;
 
+=======
+        gap: 30px;
+        margin-top:30px;
+    }
+    #help-cart>div>div>h3{
+        font-size: 14px;
+    }
+    #help-cart>div>p{
+        font-size: 11px;
+    }
+    #app-info>ul{
+        margin-left: 3px;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
     }
     #row4-deals>div:nth-child(2){
         width: 50%;
         margin: auto;
     }
     .deal-text-wrapp{
+<<<<<<< HEAD
         bottom: 27px;
         left: 10px;
         white-space: nowrap;
         overflow: hidden;
         font-size: 14px;
+=======
+        bottom: 30px;
+        left: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 12px;
+    }
+    .deal-text-wrapp>h3{
+        font-size: 12px;
+    }
+    .deal-text-wrapp>p{
+        font-size: 10px;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
     }
     #tips-card{
         grid-template-columns: repeat(1, 1fr);
@@ -159,7 +207,11 @@
         gap: 35px;
     }
     .select-btn>span{
+<<<<<<< HEAD
         font-size: 13px;
+=======
+        font-size: 11px;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
     }
     #section-check{
         grid-template-columns: repeat(1, 1fr);
@@ -167,7 +219,11 @@
         gap: 10px;
     }
     #row8-dest-box>h1{
+<<<<<<< HEAD
         font-size: 18px;
+=======
+        font-size: 15px;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
     }
 
 }
@@ -227,6 +283,7 @@
     }
     .text-wrapp{
         left: 8px;
+<<<<<<< HEAD
         top: 180px;
     }
     .text-wrapp>h3{
@@ -234,6 +291,16 @@
     }
     .text-wrapp>p{
         font-size: 12px;
+=======
+        top: 130px;
+    }
+    .text-wrapp>h3{
+        font-size: 12px;
+    }
+    .text-wrapp>p{
+        font-size: 10px;
+        line-height: 6x;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
     }
     #row2-info{
         grid-template-columns: repeat(1,1fr);
@@ -277,6 +344,12 @@
         padding: 0;
         font-size: 9px;
     }
+<<<<<<< HEAD
+=======
+    #app-info>ul>li{
+        margin-left: 12px;
+    }
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
     #app-btn{
         font-size: 8px;
         height: 25px;
@@ -291,6 +364,7 @@
     }
 
 }
+<<<<<<< HEAD
 
 @media all and (min-width:600px) and (max-width:900px){
     #footer{
@@ -309,3 +383,5 @@
         margin: auto;
     }
 }
+=======
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973

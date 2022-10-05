@@ -139,7 +139,11 @@
      height: 40px;
      width:150px;
      font-size: 18px;
+<<<<<<< HEAD
      margin-left:300px;
+=======
+     margin-left:70%;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
      border: 0px;
  }
 
@@ -184,7 +188,11 @@
         height:1000px;
         width:1010px;
         margin-top: 20px;
+<<<<<<< HEAD
         margin-left: 70px;
+=======
+        
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
         
         display: flex;
     }
@@ -203,6 +211,7 @@
        border:1px solid grey;
        padding-top: 10px;
        margin-right: 20px;
+<<<<<<< HEAD
    }
    #traveler{
     height:52px;
@@ -212,6 +221,29 @@
     margin-right: 20px;
     background-color: white;
     padding-left: 10px;
+=======
+       
+   }
+   #co{
+       height: 53px;
+       width: 250px;
+       border:1px solid red;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color:white;
+       background-color: rgb(236, 31, 130);
+       font-size:20px;
+       padding-top: 20px;
+   }
+   #t{
+       display: flex;
+       padding-left: 35px;
+       margin-top: -10px;
+   }
+   #ve{
+       margin-top: 10px;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
    }
   #butt{
       height:60px;
@@ -220,6 +252,10 @@
       justify-content: center;
       justify-items: center;
      text-decoration: none;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
   }
   #butt>button{
       background-color: #CC0066;
@@ -228,6 +264,10 @@
       width:200px;
       cursor: pointer;
       font-size: 15px;
+<<<<<<< HEAD
+=======
+      
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
   }
 
  #three{
@@ -242,7 +282,11 @@
 
  .pay{
      height: 920px;;
+<<<<<<< HEAD
      width: 320px;
+=======
+     width: 40%;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
      border:1px solid grey;
      margin-right:10px;
      background-color: white;
@@ -275,6 +319,10 @@
      width:auto;
      margin-top:60px;
  }
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 #butto>button{
     background-color: #CC0066;
     color:white;
@@ -334,6 +382,7 @@
     border: none;
     margin-top: -10px;
     cursor: pointer;
+<<<<<<< HEAD
 }
 .date>i, #travelers>i{
     width: 15%;
@@ -343,10 +392,17 @@
     font-size:small;
     letter-spacing: 0.5px;
 }
+=======
+    
+}
+
+
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 #travelers{
     width: 23%;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     padding-right: 25px;
     cursor: default;
     z-index: 10;
@@ -377,4 +433,32 @@
 #search-box-checkavailability{
     width: 65%;
     margin: auto;
+=======
+   
+    cursor: default;
+    z-index: 10;
+    margin-top: -925px;
+    
+    
+}
+#trave{
+    height:53px;
+    width: 30%;
+    border:1px solid gray;
+    margin-right:20px;
+}
+
+
+
+
+
+#search-box-checkavailability{
+    width: 65%;
+    margin: auto;
+}
+#ma{
+    margin-top:-20px;
+    margin-left: 10%;
+    
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 }

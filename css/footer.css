@@ -1,13 +1,22 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 #footer{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     gap:20px;
     width:90%;
     margin: auto;
+<<<<<<< HEAD
     border-bottom: 0.1px solid #c0bcbc;
     padding-bottom: 2%;
     margin-bottom: 6%;
+=======
+    border-bottom: 1px solid rgb(168, 165, 165);
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 
 }
 #footer>div>h4{
@@ -17,15 +26,50 @@
     color:rgb(47,154,179);
     font-size: 13px;
     font-family: sans-serif;
+<<<<<<< HEAD
     line-height: 35px;
+=======
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 }
 #footer>div>p:hover{
     cursor: pointer;
     text-decoration: underline;
 }
 #footer>div:nth-child(1)>img{
+<<<<<<< HEAD
     margin-top: 22px;
 }
 #footer>div:nth-child(1)>img:hover{
     cursor: pointer;
+=======
+      margin-top: 22px;
+}
+#footer>div:nth-child(1)>img:hover{
+    cursor: pointer;
+}
+
+@media all and (min-width:600px) and (max-width:900px){
+    #footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    #footer>div>p{
+        font-size: 10px;
+    }
+    #footer>div>h4{
+        font-size: 12px;
+    }
+}
+@media all and (min-width:300px) and (max-width:600px){
+    #footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #footer>div>p{
+        font-size: 10px;
+    }
+    #footer>div>h4{
+        font-size: 12px;
+    }
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 }

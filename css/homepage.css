@@ -105,10 +105,17 @@ form{
 #travelers>div>div, #counters>div{
     display: flex;
 }
+<<<<<<< HEAD
+=======
+#counters>div{
+    margin-top: 4px;
+}
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 #counters{
     margin: 5px;
 }
 #counters>div>button{
+<<<<<<< HEAD
     background-color: transparent;
     border: 0.1px solid rgb(194, 193, 193);
     margin-right: 8px;
@@ -116,11 +123,28 @@ form{
     font-size: 12px;
     margin-top: -2px;
     text-align: center;
+=======
+    background-color: rgb(206, 231, 245);
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 11px;
+    margin-top: -2px;
+    text-align: center;
+    border: none;
+    border-radius:6px;
+    padding-bottom: -2px;
+    height: 18px;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 }
 
 #counters>div>#c1, #counters>div>#c2{
     margin-right: 4px;
     vertical-align: middle;
+<<<<<<< HEAD
+=======
+    color:red;
+    font-weight: 600;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 }
 
 
@@ -214,6 +238,7 @@ form{
     display: block;
     overflow: hidden;
     position: absolute;
+<<<<<<< HEAD
     top: 100px;
     right: 0;
     outline: none;
@@ -223,6 +248,24 @@ form{
 }
 .text-wrapp>p{
     margin-top: -18px;
+=======
+    top: 70px;
+    right: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    outline: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
+    white-space: nowrap;
+    width: 100%;
+}
+.text-wrapp>.line-up{
+    line-height: 3px;
+    font-size: 14px;
+    outline: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 }
 /* ==========*/
 /* row4 top deals*/
@@ -237,6 +280,10 @@ form{
 }
 #row4-deals>div{
     cursor: pointer;
+<<<<<<< HEAD
+=======
+    position: relative; 
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 }
 #row4-deals>div>img{
     width: 100%;
@@ -244,18 +291,36 @@ form{
     object-fit:cover;
 }
 .deal-text-wrapp{
+<<<<<<< HEAD
     width: 100%;
     position: relative;
     margin-top: -10%;
     margin-left: 3%;
+=======
+    z-index: 100;
+    bottom: 0;
+    left: 8px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    white-space: nowrap;
+    width: 100%;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
     color: #FFFFFF;
     opacity: 1;
     outline: #FFFFFF;
     -webkit-font-smoothing: antialiased;
     text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
 }
+<<<<<<< HEAD
 .deal-text-wrapp>p{
     margin-top: -18px;
+=======
+.deal-text-wrapp>.line-up{
+    line-height: 5px;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 }
 .deal-text-wrapp>h3, .deal-text-wrapp>p{
     outline-color: white;
@@ -292,9 +357,16 @@ form{
     padding: 5px;
 }
 #help-cart>div>p{
+<<<<<<< HEAD
     margin-top: -15px;
     font-size: small;
     margin-left: 5px;
+=======
+    /* margin-top: -3px; */
+    font-size: small;
+    margin-left: 5px;
+    margin-bottom: 8px;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
 }
 #help-cart>div>div>i{
     margin-top: 20px;
@@ -329,7 +401,11 @@ form{
 }
 .tips-info{
     text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
+<<<<<<< HEAD
     line-height: 15px;
+=======
+    line-height: 30px;
+>>>>>>> e03b2cbfabc95876ea5eff4884b10e999f565973
     position: absolute;
     top: 40%;
     transform: translateY(-50%);
