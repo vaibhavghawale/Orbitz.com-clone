@@ -16,6 +16,7 @@ and also help to choose best vacation plan to us. build with the six team member
 </div>
 
 <h2 align="left"><i>You can find Deploy link here</i></h2>
+  <img alt="Netlify" src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/>
 <h3 align="left"><a href="https://reliable-llama-c038f5.netlify.app/" target="_blank"> Orbitz.com ( https://reliable-llama-c038f5.netlify.app )</a></h3>
 
 
